@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>http://192.168.0.230:2015/ios/%E4%B8%89%E5%9B%BD%E6%88%98%E4%BA%91%E6%98%A5%E8%8A%82%E7%89%88.ipa</string> 
+                    <string>https://bzjj-1254965461.cos.ap-guangzhou.myqcloud.com/g03/Unity-iPhone.ipa</string> 
                 </dict>
             </array>
             <key>metadata</key>
