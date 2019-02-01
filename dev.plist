@@ -19,11 +19,11 @@
                 <key>bundle-identifier</key>
                 <string>com.oceanvista.g03</string>
                 <key>bundle-version</key>
-                <string>1.0.0.0</string>
+                <string>1.0.0</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <string>三国战云</string>
+                <string>g03</string>
             </dict>
         </dict>
     </array>
