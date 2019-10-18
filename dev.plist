@@ -17,9 +17,9 @@
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.oceanvista.g03</string>
+                <string>com.oceanvista.g03.en</string>
                 <key>bundle-version</key>
-                <string>1.0.0</string>
+                <string>5.0.0</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
