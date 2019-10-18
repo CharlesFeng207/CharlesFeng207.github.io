@@ -1,8 +1,8 @@
 
-LICENSE SYSTEM [20191018 18:1:37] Next license update check is after 2019-10-19T09:57:09
+LICENSE SYSTEM [20191018 18:4:37] Next license update check is after 2019-10-19T09:57:09
 
 DisplayProgressbar: Unity license
-[Package Manager] Server::Start -- Port 54045 was selected
+[Package Manager] Server::Start -- Port 63789 was selected
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity2018.2.21/Unity.app/Contents/MacOS/Unity
@@ -18,11 +18,11 @@ Editor.OnekeyBuild.Upload
 executeMethod.log
 Successfully changed project path to: /Users/charles/Documents/g03_client
 /Users/charles/Documents/g03_client
-Loading GUID <-> Path mappings...0.000071 seconds
-Loading Asset Database...0.059515 seconds
+Loading GUID <-> Path mappings...0.000066 seconds
+Loading Asset Database...0.159725 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.155291 seconds
-Refreshing native plugins compatible for Editor in 49.14 ms, found 4 plugins.
+AssetDatabase consistency checks...0.217215 seconds
+Refreshing native plugins compatible for Editor in 104.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.24s seconds
@@ -110,33 +110,33 @@ Initialize mono
 Mono path[0] = '/Applications/Unity2018.2.21/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56113
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 3.34 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.69 ms, found 8 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity2018.2.21/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity2018.2.21/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000456 seconds.
+Registered in 0.000472 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.1088992s.
+Registered platform support modules in: 0.1304855s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.57 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 6.26 ms.
+Refreshing native plugins compatible for Editor in 3.41 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 6.42 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.352 seconds
+- Completed reload, in  1.493 seconds
 Registering precompiled user dll's ...
-Registered in 0.396037 seconds.
+Registered in 0.424305 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering platform support modules:
-Registered platform support modules in: 0.0913569s.
+Registered platform support modules in: 0.0979931s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.60 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.66 ms.
+Refreshing native plugins compatible for Editor in 3.70 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.64 ms.
 Loaded VersionHandlerImpl
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -152,6 +152,10 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unit
  
 (Filename: Z Line: 0)
 
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2018.2.21f1]
+UnityIAP: Current Build is iPhone:iOS
+UnityIAP: stub FacebookStore.dll enabled
 Detected .NET version 4.5
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -167,19 +171,15 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unit
  
 (Filename: Z Line: 0)
 
-UnityIAP: [InitializeOnLoad] Facebook Check
-UnityIAP: Runtime [2018.2.21f1]
-UnityIAP: Current Build is iPhone:iOS
-UnityIAP: stub FacebookStore.dll enabled
 Mono: successfully reloaded assembly
-- Completed reload, in  2.715 seconds
+- Completed reload, in  3.151 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.180954 seconds.
+Validating Project structure ... 0.176063 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.283632 seconds (Nothing changed)
-Refresh completed in 0.283671 seconds.
+Refresh: elapses 0.319911 seconds (Nothing changed)
+Refresh completed in 0.319980 seconds.
 WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
-Warming cache for 17751 main assets: 0.073660 seconds elapsed
+Warming cache for 17751 main assets: 0.080524 seconds elapsed
 Initializing Unity extensions:
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -215,7 +215,7 @@ System memory in use before: 0.66 GB.
 System memory in use after: 0.66 GB.
 
 Unloading 1394 unused Assets to reduce memory usage. Loaded Objects now: 4830.
-Total: 7.189032 ms (FindLiveObjects: 1.809760 ms CreateObjectMapping: 1.223641 ms MarkObjects: 2.638865 ms  DeleteObjects: 1.515392 ms)
+Total: 13.244689 ms (FindLiveObjects: 2.337952 ms CreateObjectMapping: 1.816938 ms MarkObjects: 7.121345 ms  DeleteObjects: 1.966274 ms)
 
 NullReferenceException: Object reference not set to an instance of an object
 
