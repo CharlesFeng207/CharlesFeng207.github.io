@@ -26,3 +26,13 @@ Symbol file LoadedFromMemory is not a mono symbol file
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
+Launching external process: /Applications/Unity2018.2.21/Unity.app/Contents/Resources/PackageManager/Server/upm-macos
+Symbol file LoadedFromMemory is not a mono symbol file
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/charles/Documents/g03_client/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll
+[usbmuxd] Stop listen thread
+[usbmuxd] Error: 
+[usbmuxd] Listen thread exiting
