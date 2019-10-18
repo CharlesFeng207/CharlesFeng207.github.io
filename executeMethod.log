@@ -1,8 +1,8 @@
 
-LICENSE SYSTEM [20191018 18:4:37] Next license update check is after 2019-10-19T09:57:09
+LICENSE SYSTEM [20191018 18:13:50] Next license update check is after 2019-10-19T09:57:09
 
 DisplayProgressbar: Unity license
-[Package Manager] Server::Start -- Port 63789 was selected
+[Package Manager] Server::Start -- Port 62290 was selected
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity2018.2.21/Unity.app/Contents/MacOS/Unity
@@ -11,18 +11,18 @@ DisplayProgressbar: Unity license
 -projectPath
 /Users/charles/Documents/g03_client
 -executeMethod
-Editor.OnekeyBuild.Upload
+Editor.OnekeyBuild.UploadForBatchMode
 /Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png
 -quit
 -logFile
 executeMethod.log
 Successfully changed project path to: /Users/charles/Documents/g03_client
 /Users/charles/Documents/g03_client
-Loading GUID <-> Path mappings...0.000066 seconds
-Loading Asset Database...0.159725 seconds
+Loading GUID <-> Path mappings...0.000063 seconds
+Loading Asset Database...0.091841 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.217215 seconds
-Refreshing native plugins compatible for Editor in 104.91 ms, found 4 plugins.
+AssetDatabase consistency checks...0.193198 seconds
+Refreshing native plugins compatible for Editor in 46.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Done resolving packages in 0.24s seconds
@@ -110,33 +110,33 @@ Initialize mono
 Mono path[0] = '/Applications/Unity2018.2.21/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56113
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56202
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 3.69 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.35 ms, found 8 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity2018.2.21/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity2018.2.21/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000472 seconds.
+Registered in 0.000874 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.1304855s.
+Registered platform support modules in: 0.1088949s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.41 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 6.42 ms.
+Refreshing native plugins compatible for Editor in 3.84 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 5.56 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.493 seconds
+- Completed reload, in  1.359 seconds
 Registering precompiled user dll's ...
-Registered in 0.424305 seconds.
+Registered in 0.408316 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering platform support modules:
-Registered platform support modules in: 0.0979931s.
+Registered platform support modules in: 0.0873589s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.70 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.64 ms.
+Refreshing native plugins compatible for Editor in 3.64 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.74 ms.
 Loaded VersionHandlerImpl
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -152,10 +152,1246 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unit
  
 (Filename: Z Line: 0)
 
+Detected .NET version 4.5
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
+Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
+Google.DotNetVersionUpdater:.cctor() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:2025)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
+ 
+(Filename: Z Line: 0)
+
 UnityIAP: [InitializeOnLoad] Facebook Check
 UnityIAP: Runtime [2018.2.21f1]
 UnityIAP: Current Build is iPhone:iOS
 UnityIAP: stub FacebookStore.dll enabled
+Mono: successfully reloaded assembly
+- Completed reload, in  2.888 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.162608 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+A meta data file (.meta) exists but its asset 'Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.so' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
+ 
+(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/RefreshAssets.cpp Line: 84)
+
+A meta data file (.meta) exists but its asset 'Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_4_0.so' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
+ 
+(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/RefreshAssets.cpp Line: 84)
+
+A meta data file (.meta) exists but its asset 'Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.so' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
+ 
+(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/RefreshAssets.cpp Line: 84)
+
+A meta data file (.meta) exists but its asset 'Assets/HYZClientFrameworks/GPCommon/Plugins/Best HTTP (Pro)/obj' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
+ 
+(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/RefreshAssets.cpp Line: 84)
+
+Removing Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.so because the asset does not exist
+ 
+(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 798)
+
+Removing Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_4_0.so because the asset does not exist
+ 
+(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 798)
+
+Removing Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.so because the asset does not exist
+ 
+(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 798)
+
+Removing Assets/HYZClientFrameworks/GPCommon/Plugins/Best HTTP (Pro)/obj because the asset does not exist
+ 
+(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 798)
+
+
+Hashing assets (8 files)... 0.074 seconds
+  file read: 0.073 seconds (0.068 MB)
+  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
+  wait for read: 0.074 seconds (CPUT thread waiting for I/O thread, aka disk bound)
+  hash: 0.000 seconds
+----- Compute hash(es) for 8 asset(s).
+
+Refresh: elapses 4.813622 seconds
+Updating Assets/StreamingAssets/AssetBundles/ui_maincity.bundle.r19821 - GUID: 159377c8f96634372b4bcacafcb0107e...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_maincity.bundle.r19821.
+ done. [Time: 759.618678 ms] 
+Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.65 GB.
+System memory in use after: 0.59 GB.
+
+Unloading 429 unused Assets to reduce memory usage. Loaded Objects now: 4687.
+Total: 25.058322 ms (FindLiveObjects: 1.575793 ms CreateObjectMapping: 0.487167 ms MarkObjects: 2.774460 ms  DeleteObjects: 20.219644 ms)
+
+Updating Assets/StreamingAssets/AssetBundles/AssetBundles.manifest - GUID: 217b68b73b0f10843859877e76109d87...
+ done. [Time: 270.974918 ms] 
+Updating Assets/StreamingAssets/AssetBundles/AssetBundles.bundle.r19821 - GUID: 243a9a505019342f3a87c6c802c135bf...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/AssetBundles.bundle.r19821.
+ done. [Time: 5.366203 ms] 
+Updating Assets/StreamingAssets/AssetBundles/languagebytes.bundle.r19821 - GUID: 2e6edf34b0ee94ebd8596b6b6913788e...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/languagebytes.bundle.r19821.
+ done. [Time: 6.742593 ms] 
+Updating Assets/StreamingAssets/AssetBundles/AssetBundles.bundle.r19824 - GUID: 3630db047332445f0ba6e869f17befec...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/AssetBundles.bundle.r19824.
+ done. [Time: 199.860023 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_maincity.bundle.r19824 - GUID: 3634ae129aa2c414680e731f7fb575e5...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_maincity.bundle.r19824.
+ done. [Time: 6.560289 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_worldtrend.manifest - GUID: 37c557c49f1be74468c8bc387b221117...
+ done. [Time: 6.313317 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_talent.bundle.r19821 - GUID: 3815688e917ec4fc6a31c918179406db...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_talent.bundle.r19821.
+ done. [Time: 5.102968 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_talent.manifest - GUID: 4745800279824c84e88732191bab4e19...
+ done. [Time: 6.247092 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_backpack.bundle.r19821 - GUID: 54a568d85580c4ba59a7de13f7e8d469...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_backpack.bundle.r19821.
+ done. [Time: 5.956210 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_worldmapui.bundle.r19824 - GUID: 59fd4a08dd3284ea58ada0e7a6dd9fac...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_worldmapui.bundle.r19824.
+ done. [Time: 9.794570 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_maincity.manifest - GUID: 5bcc5df876b72a1469e6d0ea53b4375f...
+ done. [Time: 23.806989 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_backpack.manifest - GUID: 7cc56592b575d9546a68fc3e597c4228...
+ done. [Time: 7.951332 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_worldtrend.bundle.r19824 - GUID: 832aab9ac1d864c1db365ac48aacbbab...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_worldtrend.bundle.r19824.
+ done. [Time: 7.081427 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_backpack.bundle.r19824 - GUID: 9e8d7f2178d2540529ff4bcf7ebb1eee...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_backpack.bundle.r19824.
+ done. [Time: 7.342490 ms] 
+Updating Assets/StreamingAssets/AssetBundles/languagebytes.manifest - GUID: b8f85259426daa041a0c88fafc8ff1d4...
+ done. [Time: 9.232998 ms] 
+Updating Assets/StreamingAssets/AssetBundles/languagebytes.bundle.r19824 - GUID: d20b79ee238374c1286b8ea30dd253b4...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/languagebytes.bundle.r19824.
+ done. [Time: 8.581340 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_worldtrend.bundle.r19821 - GUID: d5420720e50834be5bbf1f2de6a7ea6d...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_worldtrend.bundle.r19821.
+ done. [Time: 7.277255 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_worldmapui.bundle.r19821 - GUID: eda5ce02c20854d7397da214779ee2c3...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_worldmapui.bundle.r19821.
+ done. [Time: 10.873418 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_worldmapui.manifest - GUID: efc1d6612171dbd4d86a66331d8bd79a...
+ done. [Time: 8.603691 ms] 
+Updating Assets/StreamingAssets/AssetBundles/ui_talent.bundle.r19824 - GUID: f508ada4a0f074d4c869efa8f10ab77f...
+----- Compute hash for Assets/StreamingAssets/AssetBundles/ui_talent.bundle.r19824.
+ done. [Time: 7.653028 ms] 
+Updating Assets/Editor/OnekeyBuild.cs - GUID: 71cce7ca354d5ad41a8716c1df827cde...
+ done. [Time: 22.271072 ms] 
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+
+-----Compiler Commandline Arguments:
+Filename: /Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/bin/mono
+Arguments: '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-ed96be2ea48c4437899e1aaf8206ba0d
+index: 90
+Responsefile: Temp/UnityTempFile-ed96be2ea48c4437899e1aaf8206ba0d Contents: 
+-debug
+-target:library
+-nowarn:0169
+-langversion:6
+-out:'Temp/Assembly-CSharp-Editor.dll'
+-nostdlib
+-unsafe
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.BaselibModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FacebookModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TimelineModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/Unity.Locator.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll'
+-r:'Library/ScriptAssemblies/GPAssetContainer.Editor.dll'
+-r:'Library/ScriptAssemblies/GPAssetContainer.dll'
+-r:'Library/ScriptAssemblies/AntiCheatToolkit.Editor.dll'
+-r:'Library/ScriptAssemblies/GPDataconvert.Editor.dll'
+-r:'Library/ScriptAssemblies/graph_visualizer.dll'
+-r:'Library/ScriptAssemblies/Bakery.dll'
+-r:'Library/ScriptAssemblies/Spine.dll'
+-r:'Library/ScriptAssemblies/MemoryProfiler.dll'
+-r:'Library/ScriptAssemblies/GPDebugconsole.dll'
+-r:'Library/ScriptAssemblies/SuperScrollView.dll'
+-r:'Library/ScriptAssemblies/GPQuickBuild.dll'
+-r:'Library/ScriptAssemblies/graph-visualizer-2.1.Editor.dll'
+-r:'Library/ScriptAssemblies/GPNetwork.dll'
+-r:'Library/ScriptAssemblies/Google.Protobuf.dll'
+-r:'Library/ScriptAssemblies/GPQuickBuild.Editor.dll'
+-r:'Library/ScriptAssemblies/UnityEditor.StandardEvents.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll'
+-r:'Library/ScriptAssemblies/RainDropEffect2.Editor.dll'
+-r:'Library/ScriptAssemblies/GPVersionFlow.Editor.dll'
+-r:'Library/ScriptAssemblies/AntiCheatToolkit.dll'
+-r:'Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll'
+-r:'Library/ScriptAssemblies/GPCommon.dll'
+-r:'Library/ScriptAssemblies/GPCommon.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.AssetBundleBrowser.Editor.dll'
+-r:'Library/ScriptAssemblies/DebugDrawingExtension.dll'
+-r:'Library/ScriptAssemblies/GPPlatform.dll'
+-r:'Library/ScriptAssemblies/Entitas.dll'
+-r:'Library/ScriptAssemblies/GPVersionFlow.dll'
+-r:'Library/ScriptAssemblies/SpringBone.dll'
+-r:'Library/ScriptAssemblies/Bakery.Editor.dll'
+-r:'Library/ScriptAssemblies/GPDataconvert.dll'
+-r:'Library/ScriptAssemblies/LINQ-to-GameObject-for-Unity-master.dll'
+-r:'Library/ScriptAssemblies/SuperScrollView.Editor.dll'
+-r:'Library/ScriptAssemblies/GameNetwork.dll'
+-r:'Library/ScriptAssemblies/ProtoOutput.dll'
+-r:'Library/ScriptAssemblies/Coffee.UIParticle.dll'
+-r:'Library/ScriptAssemblies/Spine.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.dll'
+-r:'Library/ScriptAssemblies/RainDropEffect2.dll'
+-r:'Library/ScriptAssemblies/Coffee.UIParticle.Editor.dll'
+-r:'Library/ScriptAssemblies/Entitas.Editor.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/PerformanceTesting/UnityEngine.PerformanceTesting.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity2018.2.21/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
+-r:'Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll'
+-r:'Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.124.0.dll'
+-r:'Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.124.0.dll'
+-r:'Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.124.0.dll'
+-r:'Assets/Plugins/UDP/UDP.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Editor.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Stores.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll'
+-r:'Assets/Plugins/UnityPurchasing/winrt/winrt.dll'
+-r:'Assets/Plugins/UnityChannel/ChannelPurchase.dll'
+-r:'Assets/Plugins/UnityChannel/UnityStore.dll'
+-r:'Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll'
+-r:'Assets/FacebookSDK/Plugins/Facebook.Unity.dll'
+-r:'Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll'
+-r:'Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll'
+-r:'Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll'
+-r:'Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll'
+-r:'Assets/Parse/Plugins/dotNet45/Unity.Compat.dll'
+-r:'Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll'
+-r:'Assets/Firebase/Plugins/Firebase.Auth.dll'
+-r:'Assets/Firebase/Plugins/Google.MiniJson.dll'
+-r:'Assets/Firebase/Plugins/Firebase.Analytics.dll'
+-r:'Assets/Firebase/Plugins/Firebase.App.dll'
+-r:'Assets/Firebase/Plugins/Firebase.Platform.dll'
+-r:'Assets/Firebase/Plugins/Firebase.TaskExtension.dll'
+-r:'Assets/Firebase/Editor/Firebase.Editor.dll'
+-r:'Assets/HYZClientFrameworks/GPVersionFlow/Plugins/aliyun/aliyun-net-sdk-Core.dll'
+-r:'Assets/HYZClientFrameworks/GPVersionFlow/Plugins/aliyun/aliyun_oss_dotnet_sdk_2_8_0/bin/Aliyun.OSS.dll'
+-r:'Assets/HYZClientFrameworks/GPVersionFlow/Plugins/aliyun/aliyun-net-sdk-cdn/aliyun-net-sdk-cdn.dll'
+-r:'Assets/HYZClientFrameworks/GPVersionFlow/Plugins/sshdotnet/Renci.SshNet.dll'
+-r:'Assets/HYZClientFrameworks/GPCommon/Plugins/JsonNet/Newtonsoft.Json.dll'
+-r:'Assets/HYZClientFrameworks/GPCommon/Editor/NSubstitute.dll'
+-r:'Assets/Thirdparty/Entitas/DesperateDevs.Utils.dll'
+-r:'Assets/Thirdparty/Entitas/DesperateDevs.Logging.dll'
+-r:'Assets/Thirdparty/Entitas/Editor/DesperateDevs.CodeGeneration.Unity.Plugins.dll'
+-r:'Assets/Thirdparty/Entitas/Editor/DesperateDevs.CodeGeneration.dll'
+-r:'Assets/Thirdparty/Entitas/Editor/DesperateDevs.CodeGeneration.CodeGenerator.Unity.Editor.dll'
+-r:'Assets/Thirdparty/Entitas/Editor/DesperateDevs.Unity.Editor.dll'
+-r:'Assets/Thirdparty/Entitas/Editor/DesperateDevs.CodeGeneration.CodeGenerator.dll'
+-r:'Assets/Thirdparty/Entitas/Editor/DesperateDevs.CodeGeneration.Plugins.dll'
+-r:'Assets/Thirdparty/Entitas/Editor/DesperateDevs.Serialization.dll'
+-r:'Assets/Thirdparty/Entitas/Editor/DesperateDevs.Analytics.dll'
+-r:'Assets/Thirdparty/Entitas/Editor/DesperateDevs.Networking.dll'
+-r:'Assets/Thirdparty/Psd2UnityPro/Editor/Psd2UnityPro.dll'
+-r:'Assets/Thirdparty/Demigiant/DOTweenPro/DOTweenPro.dll'
+-r:'Assets/Thirdparty/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll'
+-r:'Assets/Thirdparty/Demigiant/DemiLib/Core/DemiLib.dll'
+-r:'Assets/Thirdparty/Demigiant/DemiLib/Core/Editor/DemiEditor.dll'
+-r:'Assets/Thirdparty/Demigiant/DOTween/DOTween.dll'
+-r:'Assets/Thirdparty/Demigiant/DOTween/DOTween43.dll'
+-r:'Assets/Thirdparty/Demigiant/DOTween/DOTween50.dll'
+-r:'Assets/Thirdparty/Demigiant/DOTween/DOTween46.dll'
+-r:'Assets/Thirdparty/Demigiant/DOTween/Editor/DOTweenEditor.dll'
+-r:'Assets/VacuumShaders/Terrain To Mesh/Scripts/VacuumShaders.TerrainToMesh.dll'
+-r:'Assets/VacuumShaders/Terrain To Mesh/Editor/VacuumShaders.TerrainToMeshVC.dll'
+-r:'Assets/VacuumShaders/Terrain To Mesh/Editor/VacuumShaders.TerrainToMesh_Editor.dll'
+-r:'Assets/VacuumShaders/Editor/VacuumShaders.dll'
+-r:'/Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll'
+-r:'/Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll'
+-r:'/Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll'
+-r:'/Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll'
+-r:'/Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll'
+-r:'/Applications/Unity2018.2.21/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-r:'/Applications/Unity2018.2.21/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll'
+-r:'/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_21
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:UNITY_PURCHASING
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_NETWORK
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING
+-define:PLAYERCONNECTION_LISTENS_FIXED_PORT
+-define:DEBUGGER_LISTENS_FIXED_PORT
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:SUPPORT_ENVIRONMENT_VARIABLES
+-define:PLATFORM_SUPPORTS_PROFILER
+-define:PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR
+-define:STRICTCPP_NEW_DELETE_SIGNATURES
+-define:HAS_NEON_SKINNING
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:UNITY_INPUT_SIMULATE_EVENTS
+-define:PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:PLATFORM_IOS
+-define:UNITY_IOS
+-define:PLATFORM_IPHONE
+-define:UNITY_IPHONE
+-define:UNITY_IPHONE_API
+-define:SUPPORT_MULTIPLE_DISPLAYS
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ENTITAS_DISABLE_DEEP_PROFILING
+-define:ENTITAS_DISABLE_VISUAL_DEBUGGING
+-define:UNIT_TEST
+-define:MESSAGE_LOG_FILTER
+-define:ENABLE_NETWORK_LOG
+-define:DEBUG_CONSOLE
+-define:USE_HOT
+-define:CHECK_ASSETBUNDLE_REF
+-define:DISABLE_RES_PRELOAD
+-define:EXTERNAL_SERVER
+-define:Firebase
+-define:CHECK_NEW_VERSION
+-define:ENABLE_IOS_ON_DEMAND_RESOURCES
+-define:ENABLE_IOS_APP_SLICING
+-define:UNITY_HAS_GOOGLEVR
+'Assets/Editor/AnimatedSoldierShaderGUI.cs'
+'Assets/Editor/AnimMapBaker.cs'
+'Assets/Editor/AssetBundleRefCheckerEditor.cs'
+'Assets/Editor/CharacterActionInfoOutputEditor.cs'
+'Assets/Editor/CharacterFactoryEditor.cs'
+'Assets/Editor/ClientEditorTools.cs'
+'Assets/Editor/ConfigInitEditor.cs'
+'Assets/Editor/ConfigTestEditor.cs'
+'Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs'
+'Assets/Editor/CustomAssetsProcessor.cs'
+'Assets/Editor/CustomVersionFlowFactoryInjector.cs'
+'Assets/Editor/DefaultGraphicsInit.cs'
+'Assets/Editor/DistortionEffectShaderGUI.cs'
+'Assets/Editor/EditorStylePreview.cs'
+'Assets/Editor/EditorTest.cs'
+'Assets/Editor/EmojiBuilder.cs'
+'Assets/Editor/FamousEditor.cs'
+'Assets/Editor/FastSpritePackerPolicy.cs'
+'Assets/Editor/FlowLightShaderGUI.cs'
+'Assets/Editor/MapResrouseEditorTool.cs'
+'Assets/Editor/MeshRendererSortingLayersEditor.cs'
+'Assets/Editor/OnekeyBuild.cs'
+'Assets/Editor/SampleMenuItems.cs'
+'Assets/Editor/SceneChange.cs'
+'Assets/Editor/SimpleAnimMapMaker.cs'
+'Assets/Editor/StandardEffectShaderGUI.cs'
+'Assets/Editor/StringBuolder.cs'
+'Assets/Editor/TestMath.cs'
+'Assets/Editor/UI/ButtonEffectInspector.cs'
+'Assets/Editor/UI/CityBuildOffsetConfigsEditor.cs'
+'Assets/Editor/UI/LanguageEditor.cs'
+'Assets/Editor/UI/LanguageHandlerInspector.cs'
+'Assets/Editor/UI/UIButtonAudioInspector.cs'
+'Assets/Editor/UI/UIScrollRectEventInspector.cs'
+'Assets/Editor/UnityPlatformChecker.cs'
+'Assets/Editor/WorldMapEditor/EditorScript/ImageSlices.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_Audio_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_Battle_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_BattleStandFiles_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_Characters_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_CityBuild_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_CommonRes_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_ConfigBytes_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_ConfigJsons_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_Font_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_ILAssembly_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_Scenes_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_UI_Editor.cs'
+'Assets/Etc/AssetContainer_Auto/Editor/AC_WorldMap_Editor.cs'
+'Assets/ILWorkflow/Editor/InjectXILSetting.cs'
+'Assets/ILWorkflow/XIL/Editor/DynamicHostCodeBuilder.cs'
+'Assets/ILWorkflow/XIL/Editor/DynamicMonoBehaviourEditor.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoHotTemplate.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/ExportIL.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/GenerateCLRBinding.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/GeneratorIL.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/GeneratorObjects.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/HelpEditor.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/Code.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/CodeReader.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/CodeWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/Document.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/ExceptionHandler.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/ILProcessor.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/Instruction.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/MethodBody.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/OpCode.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/OpCodes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/SequencePoint.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/Symbols.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/VariableDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Cil/VariableReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/BlobHeap.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/Buffers.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/CodedIndex.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/ElementType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/GuidHeap.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/Heap.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/MetadataToken.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/Row.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/StringHeap.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/TableHeap.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/TokenType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/UserStringHeap.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.Metadata/Utilities.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/BinaryStreamReader.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/BinaryStreamWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/ByteBuffer.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/ByteBufferEqualityComparer.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/DataDirectory.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/Image.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/ImageReader.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/ImageWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/Section.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil.PE/TextMap.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ArrayType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/AssemblyDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/AssemblyFlags.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/AssemblyHashAlgorithm.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/AssemblyLinkedResource.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/AssemblyNameDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/AssemblyNameReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/AssemblyReader.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/AssemblyWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/BaseAssemblyResolver.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/CallSite.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/CustomAttribute.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/DefaultAssemblyResolver.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/EmbeddedResource.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/EventAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/EventDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/EventReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ExportedType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/FieldAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/FieldDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/FieldReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/FileAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/FunctionPointerType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/GenericInstanceMethod.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/GenericInstanceType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/GenericParameter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/GenericParameterAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/IConstantProvider.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ICustomAttributeProvider.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/IGenericInstance.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/IGenericParameterProvider.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/IMarshalInfoProvider.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/IMemberDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/IMetadataScope.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/IMetadataTokenProvider.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/IMethodSignature.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/Import.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/LinkedResource.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ManifestResourceAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MarshalInfo.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MemberDefinitionCollection.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MemberReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MetadataResolver.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MetadataSystem.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MethodAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MethodCallingConvention.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MethodDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MethodImplAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MethodReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MethodReturnType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MethodSemanticsAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/MethodSpecification.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/Modifiers.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ModuleDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ModuleKind.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ModuleReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/NativeType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ParameterAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ParameterDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ParameterDefinitionCollection.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ParameterReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/PinnedType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/PInvokeAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/PInvokeInfo.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/PointerType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/PropertyAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/PropertyDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/PropertyReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/ReferenceType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/Resource.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/SecurityDeclaration.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/SentinelType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/TargetRuntime.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/TypeAttributes.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/TypeDefinition.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/TypeDefinitionCollection.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/TypeParser.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/TypeReference.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/TypeSpecification.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/TypeSystem.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Cecil/VariantType.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Collections.Generic/Collection.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Collections.Generic/ReadOnlyCollection.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Security.Cryptography/CryptoConvert.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono.Security.Cryptography/CryptoService.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono/Actions.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono/Empty.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/Mono/Funcs.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/mdb/Mono.Cecil.Mdb/MdbReader.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/mdb/Mono.Cecil.Mdb/MdbWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/mdb/Mono.CompilerServices.SymbolWriter/MonoSymbolFile.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/mdb/Mono.CompilerServices.SymbolWriter/MonoSymbolTable.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/mdb/Mono.CompilerServices.SymbolWriter/MonoSymbolWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/mdb/Mono.CompilerServices.SymbolWriter/SourceMethodBuilder.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/mdb/Mono.CompilerServices.SymbolWriter/SymbolWriterImpl.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/BitAccess.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/BitSet.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/CvInfo.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/DataStream.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/DbiDbgHdr.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/DbiHeader.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/DbiModuleInfo.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/DbiSecCon.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/Interfaces.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/IntHashTable.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/MsfDirectory.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbConstant.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbDebugException.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbException.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbFile.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbFileHeader.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbFunction.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbLine.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbLines.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbReader.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbScope.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbSlot.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbSource.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbTokenLine.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/SourceLocationProvider.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/ISymUnmanagedDocumentWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/ISymUnmanagedWriter2.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/ModuleMetadata.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/PdbHelper.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/PdbReader.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/PdbWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/SymDocumentWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/SymWriter.cs'
+'Assets/ILWorkflow/XIL/Editor/ReferenceCollectorEditor.cs'
+'Assets/Scripts/Gameplay/Tools/Editor/ActionSoundConfigInspector.cs'
+'Assets/Scripts/Gameplay/Tools/Editor/AutoplayAnimationCustomInspector.cs'
+'Assets/Scripts/Gameplay/Tools/Editor/BattleEffectConfigInspector.cs'
+'Assets/Scripts/Gameplay/Tools/Editor/CreateBattleEffectConfigEditor.cs'
+'Assets/Scripts/Gameplay/Tools/Editor/GameplayConfigWindows.cs'
+'Assets/Scripts/Gameplay/Tools/Editor/GameplayDebuggerWindow.cs'
+'Assets/Scripts/Gameplay/Tools/Editor/GameplayToolsEditor.cs'
+'Assets/Scripts/Gameplay/Tools/ServerHitTest/Editor/HitTestUtilUnitTest.cs'
+'Assets/Scripts/Guide/Editor/PathFindEditor.cs'
+'Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs'
+'Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoaderEditorWindow.cs'
+'Assets/Thirdparty/Demigiant/DOTweenPro/Editor/DOTweenAnimationInspector.cs'
+'Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs'
+'Assets/Thirdparty/Psd2UnityPro/Editor/Main.cs'
+'Assets/Thirdparty/Psd2UnityPro/Editor/PsdNode.cs'
+'Assets/Thirdparty/Psd2UnityPro/Editor/Setting.cs'
+'Assets/Thirdparty/Psd2UnityPro/Editor/UGUIProcessor.cs'
+/unsafe
+
+-----CompilerOutput:-stdout--exitcode: 0--compilationhadfailure: False--outfile: Temp/Assembly-CSharp-Editor.dll
+Compilation succeeded - 70 warning(s)
+-----CompilerOutput:-stderr----------
+Assets/Editor/TestMath.cs(403,77): warning CS0078: The `l' suffix is easily confused with the digit `1' (use `L' for clarity)
+warning CS1685: The predefined type `System.Runtime.CompilerServices.ExtensionAttribute' is defined multiple times. Using definition from `mscorlib.dll'
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/PdbHelper.cs(184,15): (Location of the symbol related to previous warning)
+/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll (Location of the symbol related to previous warning)
+Assets/Editor/EditorTest.cs(28,1): warning CS0105: The using directive for `System.Collections.Generic' appeared previously in this namespace
+Assets/Editor/EditorTest.cs(410,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/EditorTest.cs(482,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/EditorTest.cs(490,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/EditorTest.cs(496,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/EditorTest.cs(739,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/EditorTest.cs(773,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/EditorTest.cs(790,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/EditorTest.cs(816,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/EditorTest.cs(839,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/TestMath.cs(325,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/TestMath.cs(334,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+Assets/Editor/AnimMapBaker.cs(50,26): warning CS0168: The variable `e' is declared but never used
+Assets/Editor/CharacterActionInfoOutputEditor.cs(120,13): warning CS0162: Unreachable code detected
+Assets/Editor/CharacterActionInfoOutputEditor.cs(311,38): warning CS0168: The variable `e' is declared but never used
+Assets/Editor/CharacterActionInfoOutputEditor.cs(326,38): warning CS0168: The variable `e' is declared but never used
+Assets/Editor/CharacterActionInfoOutputEditor.cs(350,38): warning CS0168: The variable `e' is declared but never used
+Assets/Editor/CharacterFactoryEditor.cs(885,30): warning CS0168: The variable `e' is declared but never used
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(95,34): warning CS0618: `UnityEditor.BuildTargetGroup.PSM' is obsolete: `PSM has been removed in >= 5.3'
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(96,34): warning CS0618: `UnityEditor.BuildTargetGroup.SamsungTV' is obsolete: `SamsungTV has been removed as of 2017.3'
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(97,34): warning CS0618: `UnityEditor.BuildTargetGroup.Tizen' is obsolete: `Tizen has been removed in 2017.3'
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(35,34): warning CS0618: `UnityEditor.BuildTarget.PSM' is obsolete: `PSM has been removed in >= 5.3'
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(36,34): warning CS0618: `UnityEditor.BuildTarget.Tizen' is obsolete: `Tizen has been removed in 2017.3'
+Assets/Editor/EditorTest.cs(168,17): warning CS0219: The variable `xx' is assigned but its value is never used
+Assets/Editor/EditorTest.cs(810,17): warning CS0219: The variable `response' is assigned but its value is never used
+Assets/Editor/FamousEditor.cs(160,17): warning CS0219: The variable `result' is assigned but its value is never used
+Assets/Editor/SampleMenuItems.cs(101,19): warning CS4014: The statement is not awaited and execution of current method continues before the call is completed. Consider using `await' operator
+Assets/Editor/SampleMenuItems.cs(111,19): warning CS4014: The statement is not awaited and execution of current method continues before the call is completed. Consider using `await' operator
+Assets/Editor/SampleMenuItems.cs(36,17): warning CS0219: The variable `s1' is assigned but its value is never used
+Assets/Editor/SampleMenuItems.cs(40,17): warning CS0219: The variable `s2' is assigned but its value is never used
+Assets/Editor/SampleMenuItems.cs(113,17): warning CS0219: The variable `s1' is assigned but its value is never used
+Assets/Editor/TestMath.cs(190,17): warning CS0219: The variable `pattern' is assigned but its value is never used
+Assets/Editor/TestMath.cs(257,17): warning CS0219: The variable `w' is assigned but its value is never used
+Assets/Editor/TestMath.cs(392,17): warning CS0219: The variable `v3' is assigned but its value is never used
+Assets/Editor/TestMath.cs(427,17): warning CS0219: The variable `cmd' is assigned but its value is never used
+Assets/Editor/TestMath.cs(467,17): warning CS0219: The variable `testCode' is assigned but its value is never used
+Assets/Editor/TestMath.cs(470,17): warning CS0219: The variable `met' is assigned but its value is never used
+Assets/Editor/TestMath.cs(76,25): warning CS0219: The variable `data' is assigned but its value is never used
+Assets/Editor/UI/ButtonEffectInspector.cs(26,26): warning CS0168: The variable `e' is declared but never used
+Assets/Editor/UI/UIButtonAudioInspector.cs(26,26): warning CS0168: The variable `e' is declared but never used
+Assets/Editor/UI/UIScrollRectEventInspector.cs(64,49): warning CS0618: `UnityEditor.EditorGUILayout.ObjectField(string, UnityEngine.Object, System.Type, params UnityEngine.GUILayoutOption[])' is obsolete: `Check the docs for the usage of the new parameter 'allowSceneObjects'.'
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs(492,34): warning CS0168: The variable `e' is declared but never used
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs(507,38): warning CS0168: The variable `e' is declared but never used
+Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs(381,17): warning CS0162: Unreachable code detected
+Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs(534,17): warning CS0219: The variable `alls' is assigned but its value is never used
+Assets/Scripts/Gameplay/Tools/Editor/ActionSoundConfigInspector.cs(89,34): warning CS0168: The variable `e' is declared but never used
+Assets/Scripts/Gameplay/Tools/Editor/BattleEffectConfigInspector.cs(27,30): warning CS0168: The variable `e' is declared but never used
+Assets/Scripts/Guide/Editor/PathFindEditor.cs(50,13): warning CS0219: The variable `cam' is assigned but its value is never used
+Assets/Scripts/Guide/Editor/PathFindEditor.cs(237,13): warning CS0219: The variable `rectParent' is assigned but its value is never used
+Assets/Scripts/Guide/Editor/PathFindEditor.cs(290,13): warning CS0219: The variable `path' is assigned but its value is never used
+Assets/Scripts/Guide/Editor/PathFindEditor.cs(407,13): warning CS0219: The variable `ret' is assigned but its value is never used
+Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs(34,27): warning CS0618: `UnityEditor.EditorApplication.playmodeStateChanged' is obsolete: `Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs(34,27): warning CS0618: `UnityEditor.EditorApplication.playmodeStateChanged' is obsolete: `Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs(172,33): warning CS0436: The type `Psd2UnityPro.Main' conflicts with the imported type of same name'. Ignoring the imported type definition
+Assets/Thirdparty/Psd2UnityPro/Editor/Main.cs(12,18): (Location of the symbol related to previous warning)
+/Users/charles/Documents/g03_client/Assets/Thirdparty/Psd2UnityPro/Editor/Psd2UnityPro.dll (Location of the symbol related to previous warning)
+Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs(225,37): warning CS0168: The variable `e' is declared but never used
+Assets/Editor/CharacterActionInfoOutputEditor.cs(104,46): warning CS0414: The private field `Editor.CharacterActionInfoOutputEditor.SkillActionEnums' is assigned but its value is never used
+Assets/Editor/CustomAssetsProcessor.cs(29,27): warning CS0414: The private field `CustomAssetsProcessor.HeroVoicePath' is assigned but its value is never used
+Assets/Editor/EditorTest.cs(302,28): warning CS0649: Field `Editor.EditorTest.async_Await_Test' is never assigned to, and will always have its default value `0'
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(16,47): warning CS0414: The private field `wxb.AutoRegILType.Caches' is assigned but its value is never used
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(11,27): warning CS0649: Field `wxb.AutoRegILType.Cache.clsName' is never assigned to, and will always have its default value `null'
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(12,27): warning CS0649: Field `wxb.AutoRegILType.Cache.realClsName' is never assigned to, and will always have its default value `null'
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(13,27): warning CS0649: Field `wxb.AutoRegILType.Cache.isByRef' is never assigned to, and will always have its default value `null'
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs(21,33): warning CS0414: The private field `wxb.Editor.Hotfix.delegateBridgeGetter' is assigned but its value is never used
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs(22,32): warning CS0414: The private field `wxb.Editor.Hotfix.hotfixFlagGetter' is assigned but its value is never used
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs(459,29): warning CS0414: The private field `wxb.Editor.Hotfix.MAX_OVERLOAD' is assigned but its value is never used
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbFunction.cs(41,48): warning CS0649: Field `Microsoft.Cci.Pdb.PdbFunction.namespaceScopes' is never assigned to, and will always have its default value `null'
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/PdbReader.cs(23,7): warning CS0414: The private field `MonoIL.Cecil.Pdb.PdbReader.age' is assigned but its value is never used
+Assets/Scripts/Gameplay/Tools/Editor/GameplayDebuggerWindow.cs(136,20): warning CS0414: The private field `GameplayDebuggerWindow._playerId' is assigned but its value is never used
+-----EndCompilerOutput---------------
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Library/ScriptAssemblies/Assembly-CSharp-Editor.dll 736.0 KB cost: <color=white>2.5</color>s
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GPCommon.ShowCompilingInfo:assemblyCompilationFinished(String, CompilerMessage[]) (at Assets/HYZClientFrameworks/GPCommon/Editor/ShowCompilingInfo.cs:39)
+UnityEditor.Compilation.CompilationPipeline:<SubscribeToEvents>m__1(String, CompilerMessage[]) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/CompilationPipeline.cs:130)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:InvokeAssemblyCompilationFinished(String, List`1) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:962)
+UnityEditor.Scripting.ScriptCompilation.<CompileScriptAssemblies>c__AnonStorey8:<>m__1(ScriptAssembly, List`1) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:916)
+UnityEditor.Scripting.ScriptCompilation.CompilationTask:Poll() (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/CompilationTask.cs:112)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:PollCompilation() (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:1147)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilation:TickCompilationPipeline(EditorScriptCompilationOptions, BuildTargetGroup, BuildTarget) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:1140)
+UnityEditor.Scripting.ScriptCompilation.<TickCompilationPipeline>c__AnonStorey4:<>m__0() (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:272)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionAsError(Func`1, CompileStatus) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:85)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:TickCompilationPipeline(EditorScriptCompilationOptions, BuildTargetGroup, BuildTarget) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:272)
+ 
+(Filename: Assets/HYZClientFrameworks/GPCommon/Editor/ShowCompilingInfo.cs Line: 39)
+
+Assets/Editor/TestMath.cs(403,77): warning CS0078: The `l' suffix is easily confused with the digit `1' (use `L' for clarity)
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 403)
+
+Assets/Editor/EditorTest.cs(28,1): warning CS0105: The using directive for `System.Collections.Generic' appeared previously in this namespace
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 28)
+
+Assets/Editor/EditorTest.cs(410,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 410)
+
+Assets/Editor/EditorTest.cs(482,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 482)
+
+Assets/Editor/EditorTest.cs(490,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 490)
+
+Assets/Editor/EditorTest.cs(496,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 496)
+
+Assets/Editor/EditorTest.cs(739,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 739)
+
+Assets/Editor/EditorTest.cs(773,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 773)
+
+Assets/Editor/EditorTest.cs(790,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 790)
+
+Assets/Editor/EditorTest.cs(816,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 816)
+
+Assets/Editor/EditorTest.cs(839,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 839)
+
+Assets/Editor/TestMath.cs(325,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 325)
+
+Assets/Editor/TestMath.cs(334,34): warning CS1998: Async block lacks `await' operator and will run synchronously
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 334)
+
+Assets/Editor/AnimMapBaker.cs(50,26): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Editor/AnimMapBaker.cs Line: 50)
+
+Assets/Editor/CharacterActionInfoOutputEditor.cs(120,13): warning CS0162: Unreachable code detected
+ 
+(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 120)
+
+Assets/Editor/CharacterActionInfoOutputEditor.cs(311,38): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 311)
+
+Assets/Editor/CharacterActionInfoOutputEditor.cs(326,38): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 326)
+
+Assets/Editor/CharacterActionInfoOutputEditor.cs(350,38): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 350)
+
+Assets/Editor/CharacterFactoryEditor.cs(885,30): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Editor/CharacterFactoryEditor.cs Line: 885)
+
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(95,34): warning CS0618: `UnityEditor.BuildTargetGroup.PSM' is obsolete: `PSM has been removed in >= 5.3'
+ 
+(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 95)
+
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(96,34): warning CS0618: `UnityEditor.BuildTargetGroup.SamsungTV' is obsolete: `SamsungTV has been removed as of 2017.3'
+ 
+(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 96)
+
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(97,34): warning CS0618: `UnityEditor.BuildTargetGroup.Tizen' is obsolete: `Tizen has been removed in 2017.3'
+ 
+(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 97)
+
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(35,34): warning CS0618: `UnityEditor.BuildTarget.PSM' is obsolete: `PSM has been removed in >= 5.3'
+ 
+(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 35)
+
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(36,34): warning CS0618: `UnityEditor.BuildTarget.Tizen' is obsolete: `Tizen has been removed in 2017.3'
+ 
+(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 36)
+
+Assets/Editor/EditorTest.cs(168,17): warning CS0219: The variable `xx' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 168)
+
+Assets/Editor/EditorTest.cs(810,17): warning CS0219: The variable `response' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 810)
+
+Assets/Editor/FamousEditor.cs(160,17): warning CS0219: The variable `result' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/FamousEditor.cs Line: 160)
+
+Assets/Editor/SampleMenuItems.cs(101,19): warning CS4014: The statement is not awaited and execution of current method continues before the call is completed. Consider using `await' operator
+ 
+(Filename: Assets/Editor/SampleMenuItems.cs Line: 101)
+
+Assets/Editor/SampleMenuItems.cs(111,19): warning CS4014: The statement is not awaited and execution of current method continues before the call is completed. Consider using `await' operator
+ 
+(Filename: Assets/Editor/SampleMenuItems.cs Line: 111)
+
+Assets/Editor/SampleMenuItems.cs(36,17): warning CS0219: The variable `s1' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/SampleMenuItems.cs Line: 36)
+
+Assets/Editor/SampleMenuItems.cs(40,17): warning CS0219: The variable `s2' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/SampleMenuItems.cs Line: 40)
+
+Assets/Editor/SampleMenuItems.cs(113,17): warning CS0219: The variable `s1' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/SampleMenuItems.cs Line: 113)
+
+Assets/Editor/TestMath.cs(190,17): warning CS0219: The variable `pattern' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 190)
+
+Assets/Editor/TestMath.cs(257,17): warning CS0219: The variable `w' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 257)
+
+Assets/Editor/TestMath.cs(392,17): warning CS0219: The variable `v3' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 392)
+
+Assets/Editor/TestMath.cs(427,17): warning CS0219: The variable `cmd' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 427)
+
+Assets/Editor/TestMath.cs(467,17): warning CS0219: The variable `testCode' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 467)
+
+Assets/Editor/TestMath.cs(470,17): warning CS0219: The variable `met' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 470)
+
+Assets/Editor/TestMath.cs(76,25): warning CS0219: The variable `data' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/TestMath.cs Line: 76)
+
+Assets/Editor/UI/ButtonEffectInspector.cs(26,26): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Editor/UI/ButtonEffectInspector.cs Line: 26)
+
+Assets/Editor/UI/UIButtonAudioInspector.cs(26,26): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Editor/UI/UIButtonAudioInspector.cs Line: 26)
+
+Assets/Editor/UI/UIScrollRectEventInspector.cs(64,49): warning CS0618: `UnityEditor.EditorGUILayout.ObjectField(string, UnityEngine.Object, System.Type, params UnityEngine.GUILayoutOption[])' is obsolete: `Check the docs for the usage of the new parameter 'allowSceneObjects'.'
+ 
+(Filename: Assets/Editor/UI/UIScrollRectEventInspector.cs Line: 64)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs(492,34): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs Line: 492)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs(507,38): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs Line: 507)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs(381,17): warning CS0162: Unreachable code detected
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs Line: 381)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs(534,17): warning CS0219: The variable `alls' is assigned but its value is never used
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs Line: 534)
+
+Assets/Scripts/Gameplay/Tools/Editor/ActionSoundConfigInspector.cs(89,34): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Scripts/Gameplay/Tools/Editor/ActionSoundConfigInspector.cs Line: 89)
+
+Assets/Scripts/Gameplay/Tools/Editor/BattleEffectConfigInspector.cs(27,30): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Scripts/Gameplay/Tools/Editor/BattleEffectConfigInspector.cs Line: 27)
+
+Assets/Scripts/Guide/Editor/PathFindEditor.cs(50,13): warning CS0219: The variable `cam' is assigned but its value is never used
+ 
+(Filename: Assets/Scripts/Guide/Editor/PathFindEditor.cs Line: 50)
+
+Assets/Scripts/Guide/Editor/PathFindEditor.cs(237,13): warning CS0219: The variable `rectParent' is assigned but its value is never used
+ 
+(Filename: Assets/Scripts/Guide/Editor/PathFindEditor.cs Line: 237)
+
+Assets/Scripts/Guide/Editor/PathFindEditor.cs(290,13): warning CS0219: The variable `path' is assigned but its value is never used
+ 
+(Filename: Assets/Scripts/Guide/Editor/PathFindEditor.cs Line: 290)
+
+Assets/Scripts/Guide/Editor/PathFindEditor.cs(407,13): warning CS0219: The variable `ret' is assigned but its value is never used
+ 
+(Filename: Assets/Scripts/Guide/Editor/PathFindEditor.cs Line: 407)
+
+Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs(34,27): warning CS0618: `UnityEditor.EditorApplication.playmodeStateChanged' is obsolete: `Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+ 
+(Filename: Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs Line: 34)
+
+Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs(34,27): warning CS0618: `UnityEditor.EditorApplication.playmodeStateChanged' is obsolete: `Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+ 
+(Filename: Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs Line: 34)
+
+Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs(172,33): warning CS0436: The type `Psd2UnityPro.Main' conflicts with the imported type of same name'. Ignoring the imported type definition
+ 
+(Filename: Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs Line: 172)
+
+Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs(225,37): warning CS0168: The variable `e' is declared but never used
+ 
+(Filename: Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs Line: 225)
+
+Assets/Editor/CharacterActionInfoOutputEditor.cs(104,46): warning CS0414: The private field `Editor.CharacterActionInfoOutputEditor.SkillActionEnums' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 104)
+
+Assets/Editor/CustomAssetsProcessor.cs(29,27): warning CS0414: The private field `CustomAssetsProcessor.HeroVoicePath' is assigned but its value is never used
+ 
+(Filename: Assets/Editor/CustomAssetsProcessor.cs Line: 29)
+
+Assets/Editor/EditorTest.cs(302,28): warning CS0649: Field `Editor.EditorTest.async_Await_Test' is never assigned to, and will always have its default value `0'
+ 
+(Filename: Assets/Editor/EditorTest.cs Line: 302)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(16,47): warning CS0414: The private field `wxb.AutoRegILType.Caches' is assigned but its value is never used
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs Line: 16)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(11,27): warning CS0649: Field `wxb.AutoRegILType.Cache.clsName' is never assigned to, and will always have its default value `null'
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs Line: 11)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(12,27): warning CS0649: Field `wxb.AutoRegILType.Cache.realClsName' is never assigned to, and will always have its default value `null'
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs Line: 12)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(13,27): warning CS0649: Field `wxb.AutoRegILType.Cache.isByRef' is never assigned to, and will always have its default value `null'
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs Line: 13)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs(21,33): warning CS0414: The private field `wxb.Editor.Hotfix.delegateBridgeGetter' is assigned but its value is never used
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs Line: 21)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs(22,32): warning CS0414: The private field `wxb.Editor.Hotfix.hotfixFlagGetter' is assigned but its value is never used
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs Line: 22)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs(459,29): warning CS0414: The private field `wxb.Editor.Hotfix.MAX_OVERLOAD' is assigned but its value is never used
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs Line: 459)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbFunction.cs(41,48): warning CS0649: Field `Microsoft.Cci.Pdb.PdbFunction.namespaceScopes' is never assigned to, and will always have its default value `null'
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbFunction.cs Line: 41)
+
+Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/PdbReader.cs(23,7): warning CS0414: The private field `MonoIL.Cecil.Pdb.PdbReader.age' is assigned but its value is never used
+ 
+(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/PdbReader.cs Line: 23)
+
+Assets/Scripts/Gameplay/Tools/Editor/GameplayDebuggerWindow.cs(136,20): warning CS0414: The private field `GameplayDebuggerWindow._playerId' is assigned but its value is never used
+ 
+(Filename: Assets/Scripts/Gameplay/Tools/Editor/GameplayDebuggerWindow.cs Line: 136)
+
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.dylib
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.so
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.bundle
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/Kernel32
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.dylib
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.so
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.bundle
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
+Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
+Registering platform support modules:
+Registered platform support modules in: 0.0820537s.
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 38.16 ms, found 8 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 4.16 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.65 ms.
+18:14:10.360 |V| AfterUnity56.EntryPoint        | :1                             | AfterUnity56.EntryPoint
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2018.2.21f1]
+UnityIAP: Current Build is iPhone:iOS
+UnityIAP: stub FacebookStore.dll enabled
+Loaded VersionHandlerImpl
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
+Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
+Google.VersionHandlerImpl:.cctor() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1501)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
+ 
+(Filename: Z Line: 0)
+
 Detected .NET version 4.5
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -172,14 +1408,23 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unit
 (Filename: Z Line: 0)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.151 seconds
+- Completed reload, in  3.672 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.176063 seconds.
-Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.319911 seconds (Nothing changed)
-Refresh completed in 0.319980 seconds.
+Unloading 296 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.53 GB.
+System memory in use after: 0.53 GB.
+
+Unloading 270 unused Assets to reduce memory usage. Loaded Objects now: 4692.
+Total: 4.414002 ms (FindLiveObjects: 1.475547 ms CreateObjectMapping: 0.422791 ms MarkObjects: 2.285852 ms  DeleteObjects: 0.228586 ms)
+
+Refreshing native plugins compatible for Editor in 55.16 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.63 ms.
+
+----- Total AssetImport time: 10.160663s, AssetImport time: 9.172829s, Asset hashing: 0.086901s [7.1 MB, 82.006516 mb/s]
+
+Refresh completed in 14.349652 seconds.
 WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
-Warming cache for 17751 main assets: 0.080524 seconds elapsed
+Warming cache for 17765 main assets: 0.075131 seconds elapsed
 Initializing Unity extensions:
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -210,24 +1455,70 @@ Method EditorTest.TestBatchMode has invalid parameters. MenuCommand is the only 
  
 (Filename: /Users/unity/buildslave/unity/build/Runtime/Scripting/ManagedAttributeManager_Mono.cpp Line: 51)
 
-Unloading 4267 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.66 GB.
-System memory in use after: 0.66 GB.
+Unloading 1381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.56 GB.
+System memory in use after: 0.56 GB.
 
-Unloading 1394 unused Assets to reduce memory usage. Loaded Objects now: 4830.
-Total: 13.244689 ms (FindLiveObjects: 2.337952 ms CreateObjectMapping: 1.816938 ms MarkObjects: 7.121345 ms  DeleteObjects: 1.966274 ms)
+Unloading 1324 unused Assets to reduce memory usage. Loaded Objects now: 4745.
+Total: 5.228919 ms (FindLiveObjects: 1.707240 ms CreateObjectMapping: 0.619883 ms MarkObjects: 2.503908 ms  DeleteObjects: 0.396721 ms)
 
-NullReferenceException: Object reference not set to an instance of an object
-
+Upload file:/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png rename: wait:True
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Editor.OnekeyBuild:Upload(String, String, Boolean) (at Assets/Editor/OnekeyBuild.cs:104)
+Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:98)
  
-(Filename:  Line: -1)
+(Filename: Assets/Editor/OnekeyBuild.cs Line: 104)
 
-executeMethod method Editor.OnekeyBuild.Upload threw exception.
+cmd:<color=green>/usr/local/bin/python3</color> argument:<color=green>utils/upload_sftp.py /Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png /svn/build/g03/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png</color> wait:<color=green>True</color>
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GPCommon.EditorHelper:ProcessCmdCommand(String, String, Boolean) (at Assets/HYZClientFrameworks/GPCommon/Editor/EditorHelper.cs:432)
+Editor.OnekeyBuild:Upload(String, String, Boolean) (at Assets/Editor/OnekeyBuild.cs:111)
+Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:98)
  
-(Filename: /Users/unity/buildslave/unity/build/Runtime/Utilities/Argv.cpp Line: 301)
+(Filename: Assets/HYZClientFrameworks/GPCommon/Editor/EditorHelper.cs Line: 432)
 
+{'host': '192.168.0.230', 'port': 22, 'username': 'root', 'password': 'root123'}
+/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png
+/svn/build/g03/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png
 
-Aborting batchmode due to failure:
-executeMethod method Editor.OnekeyBuild.Upload threw exception.
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GPCommon.EditorHelper:ProcessCmdCommand(String, String, Boolean) (at Assets/HYZClientFrameworks/GPCommon/Editor/EditorHelper.cs:461)
+Editor.OnekeyBuild:Upload(String, String, Boolean) (at Assets/Editor/OnekeyBuild.cs:111)
+Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:98)
+ 
+(Filename: Assets/HYZClientFrameworks/GPCommon/Editor/EditorHelper.cs Line: 461)
 
+/usr/local/lib/python3.7/site-packages/pysftp/__init__.py:61: UserWarning: Failed to load HostKeys from /Users/charles/.ssh/known_hosts.  You will need to explicitly load HostKeys (cnopts.hostkeys.load(filename)) or disableHostKey checking (cnopts.hostkeys = None).
+  warnings.warn(wmsg, UserWarning)
+
+UnityEngine.DebugLogHandler:Internal_Log()
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+GPCommon.EditorHelper:ProcessCmdCommand(String, String, Boolean) (at Assets/HYZClientFrameworks/GPCommon/Editor/EditorHelper.cs:464)
+Editor.OnekeyBuild:Upload(String, String, Boolean) (at Assets/Editor/OnekeyBuild.cs:111)
+Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:98)
+ 
+(Filename: Assets/HYZClientFrameworks/GPCommon/Editor/EditorHelper.cs Line: 464)
+
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: elapses 2.290467 seconds (Nothing changed)
+Refresh completed in 2.290510 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+Refresh: elapses 1.646310 seconds (Nothing changed)
+Refresh completed in 1.646352 seconds.
 [Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Receiving unhandled NULL exception
+Obtained 1 stack frames.
+#0  0x0000015a92fc00 in (Unknown)
