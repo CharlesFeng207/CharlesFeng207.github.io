@@ -1,8 +1,8 @@
 
-LICENSE SYSTEM [20191018 18:25:29] Next license update check is after 2019-10-19T09:57:09
+LICENSE SYSTEM [2019117 16:46:56] Next license update check is after 2019-11-07T08:54:03
 
 DisplayProgressbar: Unity license
-[Package Manager] Server::Start -- Port 60061 was selected
+[Package Manager] Server::Start -- Port 58889 was selected
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity2018.2.21/Unity.app/Contents/MacOS/Unity
@@ -12,25 +12,20 @@ DisplayProgressbar: Unity license
 /Users/charles/Documents/g03_client
 -executeMethod
 Editor.OnekeyBuild.UploadForBatchMode
-/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png
+/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_11_07_16_42_14_Firebase_v5.1.0.0b51_20564M.png
 -quit
 -logFile
 executeMethod.log
 Successfully changed project path to: /Users/charles/Documents/g03_client
 /Users/charles/Documents/g03_client
-Loading GUID <-> Path mappings...0.000158 seconds
-Loading Asset Database...1.119381 seconds
+Loading GUID <-> Path mappings...0.000071 seconds
+Loading Asset Database...0.064027 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...16.498248 seconds
-Refreshing native plugins compatible for Editor in 3278.36 ms, found 4 plugins.
+AssetDatabase consistency checks...0.131827 seconds
+Refreshing native plugins compatible for Editor in 48.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- ReadyRequest exceeded maximum alloted time, ran for [27] seconds
-[Package Manager] Server::Kill -- Server was shutdown
-[Package Manager] PackageManager Server::Start -- Process restart attempt #2
-
-[Package Manager] Server::Start -- Port 64990 was selected
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.47s seconds
+[Package Manager] Done resolving packages in 0.24s seconds
 [Package Manager] Registering 35 packages:
 [Package Manager]  * Package :  com.unity.analytics@2.0.16
     (location: /Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16)
@@ -102,7 +97,7 @@ DisplayProgressbar: Unity Package Manager
     (location: /Applications/Unity2018.2.21/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr)
 [Package Manager]  * Package :  com.unity.standardevents@1.0.13
     (location: /Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13)
-[Package Manager] Done registering packages in 0.10s seconds
+[Package Manager] Done registering packages in 0.00s seconds
 Initialize engine version: 2018.2.21f1 (a122f5dc316d)
 Forcing GfxDevice: Null
 GfxDevice: creating device client; threaded=0
@@ -115,33 +110,33 @@ Initialize mono
 Mono path[0] = '/Applications/Unity2018.2.21/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56695
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56231
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 3.80 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.28 ms, found 8 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity2018.2.21/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity2018.2.21/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.012207 seconds.
+Registered in 0.001338 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.1321469s.
+Registered platform support modules in: 0.1055365s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.58 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 364.52 ms.
+Refreshing native plugins compatible for Editor in 3.38 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 5.43 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.006 seconds
+- Completed reload, in  1.280 seconds
 Registering precompiled user dll's ...
-Registered in 3.207398 seconds.
+Registered in 0.410646 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering platform support modules:
-Registered platform support modules in: 0.2443018s.
+Registered platform support modules in: 0.0987054s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 19.23 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 3.44 ms.
+Refreshing native plugins compatible for Editor in 3.53 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.60 ms.
 Loaded VersionHandlerImpl
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -172,414 +167,19 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unit
  
 (Filename: Z Line: 0)
 
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2018.2.21f1]
+UnityIAP: Current Build is iPhone:iOS
+UnityIAP: stub FacebookStore.dll enabled
 Mono: successfully reloaded assembly
-- Completed reload, in 19.708 seconds
-Validating Project structure ... 1.040079 seconds.
+- Completed reload, in  2.838 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.157098 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-A meta data file (.meta) exists but its asset 'Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.so' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
- 
-(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/RefreshAssets.cpp Line: 84)
-
-A meta data file (.meta) exists but its asset 'Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_4_0.so' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
- 
-(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/RefreshAssets.cpp Line: 84)
-
-A meta data file (.meta) exists but its asset 'Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.so' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
- 
-(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/RefreshAssets.cpp Line: 84)
-
-A meta data file (.meta) exists but its asset 'Assets/HYZClientFrameworks/GPCommon/Plugins/Best HTTP (Pro)/obj' can't be found. When moving or deleting files outside of Unity, please ensure that the corresponding .meta file is moved or deleted along with it.
- 
-(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/RefreshAssets.cpp Line: 84)
-
-Removing Assets/Firebase/Plugins/x86_64/FirebaseCppAnalytics.so because the asset does not exist
- 
-(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 798)
-
-Removing Assets/Firebase/Plugins/x86_64/FirebaseCppApp-6_4_0.so because the asset does not exist
- 
-(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 798)
-
-Removing Assets/Firebase/Plugins/x86_64/FirebaseCppAuth.so because the asset does not exist
- 
-(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 798)
-
-Removing Assets/HYZClientFrameworks/GPCommon/Plugins/Best HTTP (Pro)/obj because the asset does not exist
- 
-(Filename: /Users/unity/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 798)
-
-
-Hashing assets (1 files)... 0.086 seconds
-  file read: 0.062 seconds (0.005 MB)
-  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
-  wait for read: 0.006 seconds (CPUT thread waiting for I/O thread, aka disk bound)
-  hash: 0.000 seconds
------ Compute hash(es) for 1 asset(s).
-
-Refresh: elapses 2.174610 seconds
-Updating Assets/Editor/OnekeyBuild.cs - GUID: 71cce7ca354d5ad41a8716c1df827cde...
- done. [Time: 791.719564 ms] 
-Unloading 4263 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.65 GB.
-System memory in use after: 0.58 GB.
-
-Unloading 429 unused Assets to reduce memory usage. Loaded Objects now: 4686.
-Total: 160.277702 ms (FindLiveObjects: 2.692283 ms CreateObjectMapping: 0.637095 ms MarkObjects: 68.533044 ms  DeleteObjects: 88.413431 ms)
-
-Library/ScriptAssemblies/Assembly-CSharp-Editor.dll 736.0 KB cost: <color=yellow>8.3</color>s
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-GPCommon.ShowCompilingInfo:assemblyCompilationFinished(String, CompilerMessage[]) (at Assets/HYZClientFrameworks/GPCommon/Editor/ShowCompilingInfo.cs:39)
-UnityEditor.Compilation.CompilationPipeline:<SubscribeToEvents>m__1(String, CompilerMessage[]) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/CompilationPipeline.cs:130)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilation:InvokeAssemblyCompilationFinished(String, List`1) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:962)
-UnityEditor.Scripting.ScriptCompilation.<CompileScriptAssemblies>c__AnonStorey8:<>m__1(ScriptAssembly, List`1) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:916)
-UnityEditor.Scripting.ScriptCompilation.CompilationTask:Poll() (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/CompilationTask.cs:112)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilation:PollCompilation() (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:1147)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilation:TickCompilationPipeline(EditorScriptCompilationOptions, BuildTargetGroup, BuildTarget) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilation.cs:1140)
-UnityEditor.Scripting.ScriptCompilation.<TickCompilationPipeline>c__AnonStorey4:<>m__0() (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:272)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionAsError(Func`1, CompileStatus) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:85)
-UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:TickCompilationPipeline(EditorScriptCompilationOptions, BuildTargetGroup, BuildTarget) (at /Users/unity/buildslave/unity/build/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:272)
- 
-(Filename: Assets/HYZClientFrameworks/GPCommon/Editor/ShowCompilingInfo.cs Line: 39)
-
-Assets/Editor/TestMath.cs(403,77): warning CS0078: The `l' suffix is easily confused with the digit `1' (use `L' for clarity)
- 
-(Filename: Assets/Editor/TestMath.cs Line: 403)
-
-Assets/Editor/EditorTest.cs(28,1): warning CS0105: The using directive for `System.Collections.Generic' appeared previously in this namespace
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 28)
-
-Assets/Editor/EditorTest.cs(410,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 410)
-
-Assets/Editor/EditorTest.cs(482,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 482)
-
-Assets/Editor/EditorTest.cs(490,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 490)
-
-Assets/Editor/EditorTest.cs(496,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 496)
-
-Assets/Editor/EditorTest.cs(739,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 739)
-
-Assets/Editor/EditorTest.cs(773,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 773)
-
-Assets/Editor/EditorTest.cs(790,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 790)
-
-Assets/Editor/EditorTest.cs(816,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 816)
-
-Assets/Editor/EditorTest.cs(839,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 839)
-
-Assets/Editor/TestMath.cs(325,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/TestMath.cs Line: 325)
-
-Assets/Editor/TestMath.cs(334,34): warning CS1998: Async block lacks `await' operator and will run synchronously
- 
-(Filename: Assets/Editor/TestMath.cs Line: 334)
-
-Assets/Editor/AnimMapBaker.cs(50,26): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Editor/AnimMapBaker.cs Line: 50)
-
-Assets/Editor/CharacterActionInfoOutputEditor.cs(120,13): warning CS0162: Unreachable code detected
- 
-(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 120)
-
-Assets/Editor/CharacterActionInfoOutputEditor.cs(311,38): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 311)
-
-Assets/Editor/CharacterActionInfoOutputEditor.cs(326,38): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 326)
-
-Assets/Editor/CharacterActionInfoOutputEditor.cs(350,38): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 350)
-
-Assets/Editor/CharacterFactoryEditor.cs(885,30): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Editor/CharacterFactoryEditor.cs Line: 885)
-
-Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(95,34): warning CS0618: `UnityEditor.BuildTargetGroup.PSM' is obsolete: `PSM has been removed in >= 5.3'
- 
-(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 95)
-
-Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(96,34): warning CS0618: `UnityEditor.BuildTargetGroup.SamsungTV' is obsolete: `SamsungTV has been removed as of 2017.3'
- 
-(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 96)
-
-Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(97,34): warning CS0618: `UnityEditor.BuildTargetGroup.Tizen' is obsolete: `Tizen has been removed in 2017.3'
- 
-(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 97)
-
-Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(35,34): warning CS0618: `UnityEditor.BuildTarget.PSM' is obsolete: `PSM has been removed in >= 5.3'
- 
-(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 35)
-
-Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs(36,34): warning CS0618: `UnityEditor.BuildTarget.Tizen' is obsolete: `Tizen has been removed in 2017.3'
- 
-(Filename: Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs Line: 36)
-
-Assets/Editor/EditorTest.cs(168,17): warning CS0219: The variable `xx' is assigned but its value is never used
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 168)
-
-Assets/Editor/EditorTest.cs(810,17): warning CS0219: The variable `response' is assigned but its value is never used
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 810)
-
-Assets/Editor/FamousEditor.cs(160,17): warning CS0219: The variable `result' is assigned but its value is never used
- 
-(Filename: Assets/Editor/FamousEditor.cs Line: 160)
-
-Assets/Editor/SampleMenuItems.cs(101,19): warning CS4014: The statement is not awaited and execution of current method continues before the call is completed. Consider using `await' operator
- 
-(Filename: Assets/Editor/SampleMenuItems.cs Line: 101)
-
-Assets/Editor/SampleMenuItems.cs(111,19): warning CS4014: The statement is not awaited and execution of current method continues before the call is completed. Consider using `await' operator
- 
-(Filename: Assets/Editor/SampleMenuItems.cs Line: 111)
-
-Assets/Editor/SampleMenuItems.cs(36,17): warning CS0219: The variable `s1' is assigned but its value is never used
- 
-(Filename: Assets/Editor/SampleMenuItems.cs Line: 36)
-
-Assets/Editor/SampleMenuItems.cs(40,17): warning CS0219: The variable `s2' is assigned but its value is never used
- 
-(Filename: Assets/Editor/SampleMenuItems.cs Line: 40)
-
-Assets/Editor/SampleMenuItems.cs(113,17): warning CS0219: The variable `s1' is assigned but its value is never used
- 
-(Filename: Assets/Editor/SampleMenuItems.cs Line: 113)
-
-Assets/Editor/TestMath.cs(190,17): warning CS0219: The variable `pattern' is assigned but its value is never used
- 
-(Filename: Assets/Editor/TestMath.cs Line: 190)
-
-Assets/Editor/TestMath.cs(257,17): warning CS0219: The variable `w' is assigned but its value is never used
- 
-(Filename: Assets/Editor/TestMath.cs Line: 257)
-
-Assets/Editor/TestMath.cs(392,17): warning CS0219: The variable `v3' is assigned but its value is never used
- 
-(Filename: Assets/Editor/TestMath.cs Line: 392)
-
-Assets/Editor/TestMath.cs(427,17): warning CS0219: The variable `cmd' is assigned but its value is never used
- 
-(Filename: Assets/Editor/TestMath.cs Line: 427)
-
-Assets/Editor/TestMath.cs(467,17): warning CS0219: The variable `testCode' is assigned but its value is never used
- 
-(Filename: Assets/Editor/TestMath.cs Line: 467)
-
-Assets/Editor/TestMath.cs(470,17): warning CS0219: The variable `met' is assigned but its value is never used
- 
-(Filename: Assets/Editor/TestMath.cs Line: 470)
-
-Assets/Editor/TestMath.cs(76,25): warning CS0219: The variable `data' is assigned but its value is never used
- 
-(Filename: Assets/Editor/TestMath.cs Line: 76)
-
-Assets/Editor/UI/ButtonEffectInspector.cs(26,26): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Editor/UI/ButtonEffectInspector.cs Line: 26)
-
-Assets/Editor/UI/UIButtonAudioInspector.cs(26,26): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Editor/UI/UIButtonAudioInspector.cs Line: 26)
-
-Assets/Editor/UI/UIScrollRectEventInspector.cs(64,49): warning CS0618: `UnityEditor.EditorGUILayout.ObjectField(string, UnityEngine.Object, System.Type, params UnityEngine.GUILayoutOption[])' is obsolete: `Check the docs for the usage of the new parameter 'allowSceneObjects'.'
- 
-(Filename: Assets/Editor/UI/UIScrollRectEventInspector.cs Line: 64)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs(492,34): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs Line: 492)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs(507,38): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType.cs Line: 507)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs(381,17): warning CS0162: Unreachable code detected
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs Line: 381)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs(534,17): warning CS0219: The variable `alls' is assigned but its value is never used
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/GenHotfixDelegate.cs Line: 534)
-
-Assets/Scripts/Gameplay/Tools/Editor/ActionSoundConfigInspector.cs(89,34): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Scripts/Gameplay/Tools/Editor/ActionSoundConfigInspector.cs Line: 89)
-
-Assets/Scripts/Gameplay/Tools/Editor/BattleEffectConfigInspector.cs(27,30): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Scripts/Gameplay/Tools/Editor/BattleEffectConfigInspector.cs Line: 27)
-
-Assets/Scripts/Guide/Editor/PathFindEditor.cs(50,13): warning CS0219: The variable `cam' is assigned but its value is never used
- 
-(Filename: Assets/Scripts/Guide/Editor/PathFindEditor.cs Line: 50)
-
-Assets/Scripts/Guide/Editor/PathFindEditor.cs(237,13): warning CS0219: The variable `rectParent' is assigned but its value is never used
- 
-(Filename: Assets/Scripts/Guide/Editor/PathFindEditor.cs Line: 237)
-
-Assets/Scripts/Guide/Editor/PathFindEditor.cs(290,13): warning CS0219: The variable `path' is assigned but its value is never used
- 
-(Filename: Assets/Scripts/Guide/Editor/PathFindEditor.cs Line: 290)
-
-Assets/Scripts/Guide/Editor/PathFindEditor.cs(407,13): warning CS0219: The variable `ret' is assigned but its value is never used
- 
-(Filename: Assets/Scripts/Guide/Editor/PathFindEditor.cs Line: 407)
-
-Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs(34,27): warning CS0618: `UnityEditor.EditorApplication.playmodeStateChanged' is obsolete: `Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
- 
-(Filename: Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs Line: 34)
-
-Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs(34,27): warning CS0618: `UnityEditor.EditorApplication.playmodeStateChanged' is obsolete: `Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
- 
-(Filename: Assets/Scripts/SceneAutoLoader/Editor/SceneAutoLoader.cs Line: 34)
-
-Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs(172,33): warning CS0436: The type `Psd2UnityPro.Main' conflicts with the imported type of same name'. Ignoring the imported type definition
- 
-(Filename: Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs Line: 172)
-
-Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs(225,37): warning CS0168: The variable `e' is declared but never used
- 
-(Filename: Assets/Thirdparty/Psd2UnityPro/Editor/CommonPicTool.cs Line: 225)
-
-Assets/Editor/CharacterActionInfoOutputEditor.cs(104,46): warning CS0414: The private field `Editor.CharacterActionInfoOutputEditor.SkillActionEnums' is assigned but its value is never used
- 
-(Filename: Assets/Editor/CharacterActionInfoOutputEditor.cs Line: 104)
-
-Assets/Editor/CustomAssetsProcessor.cs(29,27): warning CS0414: The private field `CustomAssetsProcessor.HeroVoicePath' is assigned but its value is never used
- 
-(Filename: Assets/Editor/CustomAssetsProcessor.cs Line: 29)
-
-Assets/Editor/EditorTest.cs(302,28): warning CS0649: Field `Editor.EditorTest.async_Await_Test' is never assigned to, and will always have its default value `0'
- 
-(Filename: Assets/Editor/EditorTest.cs Line: 302)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(16,47): warning CS0414: The private field `wxb.AutoRegILType.Caches' is assigned but its value is never used
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs Line: 16)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(11,27): warning CS0649: Field `wxb.AutoRegILType.Cache.clsName' is never assigned to, and will always have its default value `null'
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs Line: 11)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(12,27): warning CS0649: Field `wxb.AutoRegILType.Cache.realClsName' is never assigned to, and will always have its default value `null'
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs Line: 12)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs(13,27): warning CS0649: Field `wxb.AutoRegILType.Cache.isByRef' is never assigned to, and will always have its default value `null'
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/AutoRegILType_GetClassName.cs Line: 13)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs(21,33): warning CS0414: The private field `wxb.Editor.Hotfix.delegateBridgeGetter' is assigned but its value is never used
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs Line: 21)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs(22,32): warning CS0414: The private field `wxb.Editor.Hotfix.hotfixFlagGetter' is assigned but its value is never used
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs Line: 22)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs(459,29): warning CS0414: The private field `wxb.Editor.Hotfix.MAX_OVERLOAD' is assigned but its value is never used
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Hotfix.cs Line: 459)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbFunction.cs(41,48): warning CS0649: Field `Microsoft.Cci.Pdb.PdbFunction.namespaceScopes' is never assigned to, and will always have its default value `null'
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Microsoft.Cci.Pdb/PdbFunction.cs Line: 41)
-
-Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/PdbReader.cs(23,7): warning CS0414: The private field `MonoIL.Cecil.Pdb.PdbReader.age' is assigned but its value is never used
- 
-(Filename: Assets/ILWorkflow/XIL/Editor/ILHotfix/Mono.Cecil/symbols/pdb/Mono.Cecil.Pdb/PdbReader.cs Line: 23)
-
-Assets/Scripts/Gameplay/Tools/Editor/GameplayDebuggerWindow.cs(136,20): warning CS0414: The private field `GameplayDebuggerWindow._playerId' is assigned but its value is never used
- 
-(Filename: Assets/Scripts/Gameplay/Tools/Editor/GameplayDebuggerWindow.cs Line: 136)
-
-Reloading assemblies after script compilation.
-Begin MonoManager ReloadAssembly
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.dylib
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.so
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.bundle
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/Kernel32
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.dylib
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.so
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.bundle
-Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
-Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
-Registering platform support modules:
-Registered platform support modules in: 0.13247s.
-Native extension for iOS target not found
-Refreshing native plugins compatible for Editor in 3473.82 ms, found 8 plugins.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.86 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 3.72 ms.
-Loaded VersionHandlerImpl
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.VersionHandlerImpl:.cctor() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1501)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Detected .NET version 4.5
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.DotNetVersionUpdater:.cctor() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:2025)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Mono: successfully reloaded assembly
-- Completed reload, in 21.178 seconds
-Refreshing native plugins compatible for Editor in 4.30 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 2.02 ms.
-
------ Total AssetImport time: 38.275535s, AssetImport time: 36.775540s, Asset hashing: 0.086388s [5.3 KB, 0.059878 mb/s]
-
-Refresh completed in 39.657640 seconds.
+Refresh: elapses 0.284237 seconds (Nothing changed)
+Refresh completed in 0.284300 seconds.
 WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
-Warming cache for 17765 main assets: 0.080595 seconds elapsed
+Warming cache for 17756 main assets: 0.073008 seconds elapsed
 Initializing Unity extensions:
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -610,14 +210,14 @@ Method EditorTest.TestBatchMode has invalid parameters. MenuCommand is the only 
  
 (Filename: /Users/unity/buildslave/unity/build/Runtime/Scripting/ManagedAttributeManager_Mono.cpp Line: 51)
 
-Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.55 GB.
-System memory in use after: 0.55 GB.
+Unloading 4264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.66 GB.
+System memory in use after: 0.66 GB.
 
-Unloading 1325 unused Assets to reduce memory usage. Loaded Objects now: 4745.
-Total: 6.774169 ms (FindLiveObjects: 1.815775 ms CreateObjectMapping: 0.626323 ms MarkObjects: 3.591720 ms  DeleteObjects: 0.739204 ms)
+Unloading 1394 unused Assets to reduce memory usage. Loaded Objects now: 4827.
+Total: 6.175106 ms (FindLiveObjects: 1.727483 ms CreateObjectMapping: 0.522980 ms MarkObjects: 2.381378 ms  DeleteObjects: 1.542218 ms)
 
-cmd:<color=green>/usr/local/bin/python3</color> argument:<color=green>utils/upload_sftp.py /Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png /svn/build/g03/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png</color> wait:<color=green>True</color>
+cmd:<color=green>/usr/local/bin/python3</color> argument:<color=green>utils/upload_sftp.py /Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_11_07_16_42_14_Firebase_v5.1.0.0b51_20564M.png /svn/build/g03/ThreeKingdomsTruce_2019_11_07_16_42_14_Firebase_v5.1.0.0b51_20564M.png</color> wait:<color=green>True</color>
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -627,9 +227,9 @@ Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:103)
  
 (Filename: Assets/HYZClientFrameworks/GPCommon/Editor/EditorHelper.cs Line: 432)
 
-{'host': '192.168.0.230', 'port': 22, 'username': 'root', 'password': 'root123'}
-/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png
-/svn/build/g03/ThreeKingdomsTruce_2019_10_18_17_34_41_Firebase_v5.0.0.0b50_19821M.png
+{'host': '192.168.0.230', 'port': 22, 'username': 'root', 'password': 'G03qwe~'}
+/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_11_07_16_42_14_Firebase_v5.1.0.0b51_20564M.png
+/svn/build/g03/ThreeKingdomsTruce_2019_11_07_16_42_14_Firebase_v5.1.0.0b51_20564M.png
 
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -642,6 +242,18 @@ Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:103)
 
 /usr/local/lib/python3.7/site-packages/pysftp/__init__.py:61: UserWarning: Failed to load HostKeys from /Users/charles/.ssh/known_hosts.  You will need to explicitly load HostKeys (cnopts.hostkeys.load(filename)) or disableHostKey checking (cnopts.hostkeys = None).
   warnings.warn(wmsg, UserWarning)
+Traceback (most recent call last):
+  File "utils/upload_sftp.py", line 39, in <module>
+    password=config["password"], cnopts=cnopts)
+  File "/usr/local/lib/python3.7/site-packages/pysftp/__init__.py", line 143, in __init__
+    self._transport.connect(**self._tconnect)
+  File "/usr/local/lib/python3.7/site-packages/paramiko/transport.py", line 1336, in connect
+    self.auth_password(username, password)
+  File "/usr/local/lib/python3.7/site-packages/paramiko/transport.py", line 1509, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "/usr/local/lib/python3.7/site-packages/paramiko/auth_handler.py", line 250, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
 
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -654,11 +266,21 @@ Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:103)
 
 Batchmode quit successfully invoked - shutting down!
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.340306 seconds (Nothing changed)
-Refresh completed in 0.340361 seconds.
+Refresh: elapses 0.285422 seconds (Nothing changed)
+Refresh completed in 0.285467 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.283027 seconds (Nothing changed)
-Refresh completed in 0.283069 seconds.
+Refresh: elapses 0.279090 seconds (Nothing changed)
+Refresh completed in 0.279131 seconds.
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.dylib
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.so
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.bundle
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/Kernel32
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.dylib
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.so
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.bundle
+Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
 Exiting batchmode successfully now!
