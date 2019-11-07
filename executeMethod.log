@@ -1,8 +1,8 @@
 
-LICENSE SYSTEM [2019117 19:19:8] Next license update check is after 2019-11-07T08:54:03
+LICENSE SYSTEM [2019117 20:7:35] Next license update check is after 2019-11-07T08:54:03
 
 DisplayProgressbar: Unity license
-[Package Manager] Server::Start -- Port 49735 was selected
+[Package Manager] Server::Start -- Port 63508 was selected
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity2018.2.21/Unity.app/Contents/MacOS/Unity
@@ -12,20 +12,20 @@ DisplayProgressbar: Unity license
 /Users/charles/Documents/g03_client
 -executeMethod
 Editor.OnekeyBuild.UploadForBatchMode
-/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_11_07_19_14_13_Firebase_v5.1.0.0b51_20593MS.png
+/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_11_07_19_52_46_Firebase_v5.1.0.0b51_20594MS.png
 -quit
 -logFile
 executeMethod.log
 Successfully changed project path to: /Users/charles/Documents/g03_client
 /Users/charles/Documents/g03_client
-Loading GUID <-> Path mappings...0.000073 seconds
-Loading Asset Database...0.066192 seconds
+Loading GUID <-> Path mappings...0.000081 seconds
+Loading Asset Database...0.064040 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.176392 seconds
-Refreshing native plugins compatible for Editor in 52.07 ms, found 4 plugins.
+AssetDatabase consistency checks...0.408541 seconds
+Refreshing native plugins compatible for Editor in 49.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.24s seconds
+[Package Manager] Done resolving packages in 0.22s seconds
 [Package Manager] Registering 35 packages:
 [Package Manager]  * Package :  com.unity.analytics@2.0.16
     (location: /Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16)
@@ -97,7 +97,7 @@ DisplayProgressbar: Unity Package Manager
     (location: /Applications/Unity2018.2.21/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr)
 [Package Manager]  * Package :  com.unity.standardevents@1.0.13
     (location: /Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13)
-[Package Manager] Done registering packages in 0.00s seconds
+[Package Manager] Done registering packages in 0.01s seconds
 Initialize engine version: 2018.2.21f1 (a122f5dc316d)
 Forcing GfxDevice: Null
 GfxDevice: creating device client; threaded=0
@@ -110,34 +110,33 @@ Initialize mono
 Mono path[0] = '/Applications/Unity2018.2.21/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56170
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56779
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 3.33 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.41 ms, found 8 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity2018.2.21/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity2018.2.21/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000434 seconds.
+Registered in 0.011219 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.1087785s.
+Registered platform support modules in: 0.1510338s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.82 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 5.99 ms.
+Refreshing native plugins compatible for Editor in 3.60 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 8.46 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.385 seconds
+- Completed reload, in  1.831 seconds
 Registering precompiled user dll's ...
-Registered in 0.424118 seconds.
+Registered in 0.426819 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering platform support modules:
-Registered platform support modules in: 0.1125245s.
+Registered platform support modules in: 0.1437446s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.64 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 2.70 ms.
-Refreshing native plugins compatible for Editor in 3.75 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.81 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 2.37 ms.
 Loaded VersionHandlerImpl
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -173,14 +172,14 @@ UnityIAP: Runtime [2018.2.21f1]
 UnityIAP: Current Build is iPhone:iOS
 UnityIAP: stub FacebookStore.dll enabled
 Mono: successfully reloaded assembly
-- Completed reload, in  2.889 seconds
+- Completed reload, in  3.530 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.169929 seconds.
+Validating Project structure ... 0.246668 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.308651 seconds (Nothing changed)
-Refresh completed in 0.308718 seconds.
+Refresh: elapses 0.358661 seconds (Nothing changed)
+Refresh completed in 0.358724 seconds.
 WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
-Warming cache for 17869 main assets: 0.080926 seconds elapsed
+Warming cache for 17950 main assets: 0.086649 seconds elapsed
 Initializing Unity extensions:
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -211,14 +210,14 @@ Method EditorTest.TestBatchMode has invalid parameters. MenuCommand is the only 
  
 (Filename: /Users/unity/buildslave/unity/build/Runtime/Scripting/ManagedAttributeManager_Mono.cpp Line: 51)
 
-Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4282 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 0.66 GB.
 System memory in use after: 0.66 GB.
 
-Unloading 1403 unused Assets to reduce memory usage. Loaded Objects now: 4842.
-Total: 6.165826 ms (FindLiveObjects: 1.660137 ms CreateObjectMapping: 0.548152 ms MarkObjects: 2.480712 ms  DeleteObjects: 1.475749 ms)
+Unloading 1403 unused Assets to reduce memory usage. Loaded Objects now: 4845.
+Total: 8.323474 ms (FindLiveObjects: 1.890695 ms CreateObjectMapping: 0.549843 ms MarkObjects: 4.265341 ms  DeleteObjects: 1.616042 ms)
 
-cmd:<color=green>/usr/local/bin/python3</color> argument:<color=green>utils/upload_sftp.py /Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_11_07_19_14_13_Firebase_v5.1.0.0b51_20593MS.png /svn/build/g03/ThreeKingdomsTruce_2019_11_07_19_14_13_Firebase_v5.1.0.0b51_20593MS.png</color> wait:<color=green>True</color>
+cmd:<color=green>/usr/local/bin/python3</color> argument:<color=green>utils/upload_sftp.py /Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_11_07_19_52_46_Firebase_v5.1.0.0b51_20594MS.png /svn/build/g03/ThreeKingdomsTruce_2019_11_07_19_52_46_Firebase_v5.1.0.0b51_20594MS.png</color> wait:<color=green>True</color>
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -229,8 +228,8 @@ Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:103)
 (Filename: Assets/HYZClientFrameworks/GPCommon/Editor/EditorHelper.cs Line: 432)
 
 {'host': '192.168.0.230', 'port': 22, 'username': 'root', 'password': 'root123'}
-/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_11_07_19_14_13_Firebase_v5.1.0.0b51_20593MS.png
-/svn/build/g03/ThreeKingdomsTruce_2019_11_07_19_14_13_Firebase_v5.1.0.0b51_20593MS.png
+/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_11_07_19_52_46_Firebase_v5.1.0.0b51_20594MS.png
+/svn/build/g03/ThreeKingdomsTruce_2019_11_07_19_52_46_Firebase_v5.1.0.0b51_20594MS.png
 
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -255,11 +254,11 @@ Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:103)
 
 Batchmode quit successfully invoked - shutting down!
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.313956 seconds (Nothing changed)
-Refresh completed in 0.314012 seconds.
+Refresh: elapses 0.303679 seconds (Nothing changed)
+Refresh completed in 0.303724 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.283585 seconds (Nothing changed)
-Refresh completed in 0.283626 seconds.
+Refresh: elapses 0.306109 seconds (Nothing changed)
+Refresh completed in 0.306150 seconds.
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
 Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
