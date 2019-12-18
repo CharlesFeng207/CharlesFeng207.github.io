@@ -1,8 +1,8 @@
 
-LICENSE SYSTEM [20191218 15:4:16] Next license update check is after 2019-12-17T07:16:12
+LICENSE SYSTEM [20191218 17:32:43] Next license update check is after 2019-12-17T07:16:12
 
 DisplayProgressbar: Unity license
-[Package Manager] Server::Start -- Port 61958 was selected
+[Package Manager] Server::Start -- Port 53667 was selected
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity2018.2.21/Unity.app/Contents/MacOS/Unity
@@ -12,20 +12,20 @@ DisplayProgressbar: Unity license
 /Users/charles/Documents/g03_client_2
 -executeMethod
 Editor.OnekeyBuild.UploadForBatchMode
-/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_12_18_14_50_54_Firebase_v5.9.0.0b55_22415M.png
+/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_12_18_17_18_26_Firebase_v5.11.0.0b55_22448M.png
 -quit
 -logFile
 executeMethod.log
 Successfully changed project path to: /Users/charles/Documents/g03_client_2
 /Users/charles/Documents/g03_client_2
 Loading GUID <-> Path mappings...0.000069 seconds
-Loading Asset Database...0.059382 seconds
+Loading Asset Database...0.059906 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.122443 seconds
-Refreshing native plugins compatible for Editor in 44.40 ms, found 4 plugins.
+AssetDatabase consistency checks...0.135678 seconds
+Refreshing native plugins compatible for Editor in 44.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.36s seconds
+[Package Manager] Done resolving packages in 0.23s seconds
 [Package Manager] Registering 35 packages:
 [Package Manager]  * Package :  com.unity.analytics@2.0.16
     (location: /Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16)
@@ -110,38 +110,33 @@ Initialize mono
 Mono path[0] = '/Applications/Unity2018.2.21/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56171
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56369
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 3.31 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.98 ms, found 8 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity2018.2.21/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity2018.2.21/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000467 seconds.
+Registered in 0.000436 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.1016608s.
+Registered platform support modules in: 0.1064013s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.38 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.51 ms, found 8 plugins.
 Preloading 2 native plugins for Editor in 5.43 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.250 seconds
+- Completed reload, in  1.298 seconds
 Registering precompiled user dll's ...
-Registered in 0.399225 seconds.
+Registered in 0.404420 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering platform support modules:
-Registered platform support modules in: 0.0807838s.
+Registered platform support modules in: 0.0791452s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 3.59 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.95 ms, found 8 plugins.
 Preloading 2 native plugins for Editor in 1.56 ms.
-15:04:23.752 |V| AfterUnity56.EntryPoint        | :1                             | AfterUnity56.EntryPoint
-UnityIAP: [InitializeOnLoad] Facebook Check
-UnityIAP: Runtime [2018.2.21f1]
-UnityIAP: Current Build is iPhone:iOS
-UnityIAP: stub FacebookStore.dll enabled
 Loaded VersionHandlerImpl
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -150,7 +145,6 @@ UnityEngine.Debug:Log(Object)
 Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
 Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
 Google.VersionHandlerImpl:.cctor() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1501)
-Google.DotNetVersionUpdater:.cctor() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:2025)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
@@ -173,275 +167,19 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unit
  
 (Filename: Z Line: 0)
 
-Assets/Firebase/Editor/Firebase.Editor.dll metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Assets/Firebase/Editor/Firebase.Editor.dll.mdb_DISABLED metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Assets/Firebase/Editor/FirebaseAnalytics.txt metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Assets/Firebase/Editor/FirebaseAuth.txt metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Assets/Firebase/Plugins/link.xml_DISABLED metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Assets/PlayServicesResolver/Editor/Google.IOSResolver.dll metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Assets/PlayServicesResolver/Editor/Google.JarResolver.dll metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl.dll metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
-Assets/PlayServicesResolver/Editor/play-services-resolver.txt metadata will be checked
-UnityEngine.DebugLogHandler:Internal_Log()
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-Google.Logger:Log(String, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\Logger.cs:95)
-Google.VersionHandlerImpl:Log(String, Boolean, LogLevel) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1715)
-Google.FileMetadataSet:FindWithPendingUpdates(FileMetadataSet) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1138)
-Google.VersionHandlerImpl:UpdateVersionedAssets(Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1853)
-Google.VersionHandlerImpl:UpdateVersionedAssetsOnUpdate() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1506)
-Google.VersionHandlerImpl:<VersionHandlerImpl>m__0() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\VersionHandlerImpl.cs:1502)
-Google.RunOnMainThread:ExecuteNext() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:377)
-Google.RunOnMainThread:<ExecuteAll>m__1() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:408)
-Google.RunOnMainThread:RunAction(Action) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:234)
-Google.RunOnMainThread:ExecuteAll() (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:406)
-Google.RunOnMainThread:Run(Action, Boolean) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:363)
-Google.RunOnMainThread:RemoveOnUpdateCallback(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:223)
-Google.RunOnMainThread:remove_OnUpdate(CallbackFunction) (at Z:\tmp\tmp.g5ks3L7yA7\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\RunOnMainThread.cs:195)
-GooglePlayServices.PlayServicesResolver:.cctor() (at Z:\tmp\tmp.C6k7DrT2Al\third_party\unity\unity_jar_resolver\source\PlayServicesResolver\src\PlayServicesResolver.cs:879)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessEditorInitializeOnLoad(Type) (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:93)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes() (at /Users/unity/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:131)
- 
-(Filename: Z Line: 0)
-
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2018.2.21f1]
+UnityIAP: Current Build is iPhone:iOS
+UnityIAP: stub FacebookStore.dll enabled
 Mono: successfully reloaded assembly
-- Completed reload, in  2.889 seconds
+- Completed reload, in  2.697 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.164290 seconds.
+Validating Project structure ... 0.168800 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.285839 seconds (Nothing changed)
-Refresh completed in 0.285901 seconds.
+Refresh: elapses 0.294940 seconds (Nothing changed)
+Refresh completed in 0.295003 seconds.
 WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
-Warming cache for 18261 main assets: 0.077868 seconds elapsed
+Warming cache for 18271 main assets: 0.073254 seconds elapsed
 Initializing Unity extensions:
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -472,14 +210,14 @@ Method EditorTest.TestBatchMode has invalid parameters. MenuCommand is the only 
  
 (Filename: /Users/unity/buildslave/unity/build/Runtime/Scripting/ManagedAttributeManager_Mono.cpp Line: 51)
 
-Unloading 4365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4309 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 0.66 GB.
 System memory in use after: 0.66 GB.
 
-Unloading 1482 unused Assets to reduce memory usage. Loaded Objects now: 4871.
-Total: 6.769059 ms (FindLiveObjects: 1.658901 ms CreateObjectMapping: 0.563827 ms MarkObjects: 2.505930 ms  DeleteObjects: 2.039274 ms)
+Unloading 1425 unused Assets to reduce memory usage. Loaded Objects now: 4872.
+Total: 6.428927 ms (FindLiveObjects: 1.648253 ms CreateObjectMapping: 0.498100 ms MarkObjects: 2.699133 ms  DeleteObjects: 1.582349 ms)
 
-cmd:<color=green>/usr/local/bin/python3</color> argument:<color=green>utils/upload_sftp.py /Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_12_18_14_50_54_Firebase_v5.9.0.0b55_22415M.png /svn/build/g03/ThreeKingdomsTruce_2019_12_18_14_50_54_Firebase_v5.9.0.0b55_22415M.png</color> wait:<color=green>True</color>
+cmd:<color=green>/usr/local/bin/python3</color> argument:<color=green>utils/upload_sftp.py /Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_12_18_17_18_26_Firebase_v5.11.0.0b55_22448M.png /svn/build/g03/ThreeKingdomsTruce_2019_12_18_17_18_26_Firebase_v5.11.0.0b55_22448M.png</color> wait:<color=green>True</color>
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -490,8 +228,8 @@ Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:103)
 (Filename: Assets/HYZClientFrameworks/GPCommon/Editor/EditorHelper.cs Line: 432)
 
 {'host': '192.168.0.230', 'port': 22, 'username': 'root', 'password': 'root123'}
-/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_12_18_14_50_54_Firebase_v5.9.0.0b55_22415M.png
-/svn/build/g03/ThreeKingdomsTruce_2019_12_18_14_50_54_Firebase_v5.9.0.0b55_22415M.png
+/Users/charles/Documents/CharlesFeng207.github.io/ThreeKingdomsTruce_2019_12_18_17_18_26_Firebase_v5.11.0.0b55_22448M.png
+/svn/build/g03/ThreeKingdomsTruce_2019_12_18_17_18_26_Firebase_v5.11.0.0b55_22448M.png
 
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
@@ -516,11 +254,11 @@ Editor.OnekeyBuild:UploadForBatchMode() (at Assets/Editor/OnekeyBuild.cs:103)
 
 Batchmode quit successfully invoked - shutting down!
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.297939 seconds (Nothing changed)
-Refresh completed in 0.297979 seconds.
+Refresh: elapses 0.295335 seconds (Nothing changed)
+Refresh completed in 0.295379 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.286616 seconds (Nothing changed)
-Refresh completed in 0.286657 seconds.
+Refresh: elapses 0.306962 seconds (Nothing changed)
+Refresh completed in 0.307005 seconds.
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
 Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
