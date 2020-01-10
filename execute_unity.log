@@ -1220,3 +1220,28 @@ Symbol file LoadedFromMemory doesn't match image /Users/charles/Documents/g03_cl
 [usbmuxd] Stop listen thread
 [usbmuxd] Error: 
 [usbmuxd] Listen thread exiting
+Launching external process: /Applications/Unity2018.2.21/Unity.app/Contents/Resources/PackageManager/Server/upm-macos
+Symbol file LoadedFromMemory is not a mono symbol file
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/charles/Documents/g03_client/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll
+[usbmuxd] Stop listen thread
+[usbmuxd] Error: 
+[usbmuxd] Listen thread exiting
+Launching external process: /Applications/Unity2018.2.21/Unity.app/Contents/Resources/PackageManager/Server/upm-macos
+Symbol file LoadedFromMemory is not a mono symbol file
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/charles/Documents/g03_client/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll
+﻿﻿﻿﻿UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2018.2.21f1]
+UnityIAP: Current Build is iPhone:iOS
+UnityIAP: stub FacebookStore.dll enabled
+Platform modules already initialized, skipping
+[usbmuxd] Stop listen thread
+[usbmuxd] Error: 
+[usbmuxd] Listen thread exiting
