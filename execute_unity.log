@@ -1510,3 +1510,4 @@ Symbol file LoadedFromMemory doesn't match image /Users/charles/Documents/g03_cl
 [usbmuxd] Stop listen thread
 [usbmuxd] Error: 
 [usbmuxd] Listen thread exiting
+Launching external process: /Applications/Unity2018.2.21/Unity.app/Contents/Resources/PackageManager/Server/upm-macos
