@@ -1,30 +1,30 @@
 
-LICENSE SYSTEM [2020114 19:10:44] Next license update check is after 2020-01-04T05:16:34
+LICENSE SYSTEM [2020115 17:28:37] Next license update check is after 2020-01-16T05:13:34
 
 DisplayProgressbar: Unity license
-[Package Manager] Server::Start -- Port 51554 was selected
+[Package Manager] Server::Start -- Port 61153 was selected
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity2018.2.21/Unity.app/Contents/MacOS/Unity
 -batchmode
 -nographics
 -projectPath
-/Users/charles/Documents/g03_client
+/Users/charles/Documents/g03_client_another
 -executeMethod
 GPCommon.VersionFlowEditor.UploadVersion
 -quit
 -logFile
 executeMethod.log
-Successfully changed project path to: /Users/charles/Documents/g03_client
-/Users/charles/Documents/g03_client
-Loading GUID <-> Path mappings...0.000070 seconds
-Loading Asset Database...0.060916 seconds
+Successfully changed project path to: /Users/charles/Documents/g03_client_another
+/Users/charles/Documents/g03_client_another
+Loading GUID <-> Path mappings...0.000062 seconds
+Loading Asset Database...0.063124 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.139364 seconds
-Refreshing native plugins compatible for Editor in 45.38 ms, found 4 plugins.
+AssetDatabase consistency checks...0.146959 seconds
+Refreshing native plugins compatible for Editor in 48.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.24s seconds
+[Package Manager] Done resolving packages in 0.18s seconds
 [Package Manager] Registering 35 packages:
 [Package Manager]  * Package :  com.unity.analytics@2.0.16
     (location: /Users/charles/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16)
@@ -109,34 +109,34 @@ Initialize mono
 Mono path[0] = '/Applications/Unity2018.2.21/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity2018.2.21/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56659
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56296
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 3.39 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 3.38 ms, found 8 plugins.
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity2018.2.21/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity2018.2.21/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000479 seconds.
+Registered in 0.000539 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.1069563s.
+Registered platform support modules in: 0.1167303s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 3.44 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 5.33 ms.
+Preloading 2 native plugins for Editor in 6.50 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.239 seconds
+- Completed reload, in  1.301 seconds
 Registering precompiled user dll's ...
-Registered in 0.428961 seconds.
+Registered in 0.444851 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.2.21 for Unity v2018.2.21f1
 Registering platform support modules:
-Registered platform support modules in: 0.0806465s.
+Registered platform support modules in: 0.0819609s.
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 3.61 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.62 ms.
-error:00000000:lib(0):func(0):reason(0)Loaded VersionHandlerImpl
+Preloading 2 native plugins for Editor in 1.58 ms.
+Loaded VersionHandlerImpl
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -171,14 +171,14 @@ UnityIAP: Runtime [2018.2.21f1]
 UnityIAP: Current Build is iPhone:iOS
 UnityIAP: stub FacebookStore.dll enabled
 Mono: successfully reloaded assembly
-- Completed reload, in  2.713 seconds
+- Completed reload, in  2.864 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.185951 seconds.
+Validating Project structure ... 0.190059 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.309582 seconds (Nothing changed)
-Refresh completed in 0.309647 seconds.
+Refresh: elapses 0.328810 seconds (Nothing changed)
+Refresh completed in 0.328883 seconds.
 WARNING: Shader Unsupported: 'Hidden/FrameDebuggerRenderTargetDisplay' - Pass '' has no vertex shader
-Warming cache for 18450 main assets: 0.076828 seconds elapsed
+Warming cache for 18650 main assets: 0.079403 seconds elapsed
 Initializing Unity extensions:
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  '/Applications/Unity2018.2.21/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -214,9 +214,9 @@ System memory in use before: 0.66 GB.
 System memory in use after: 0.66 GB.
 
 Unloading 1432 unused Assets to reduce memory usage. Loaded Objects now: 4890.
-Total: 6.602891 ms (FindLiveObjects: 1.777576 ms CreateObjectMapping: 0.544389 ms MarkObjects: 2.683842 ms  DeleteObjects: 1.596003 ms)
+Total: 8.619320 ms (FindLiveObjects: 2.178697 ms CreateObjectMapping: 0.771468 ms MarkObjects: 3.742413 ms  DeleteObjects: 1.925582 ms)
 
-GetCurrentFlowConfig:firebase4
+GetCurrentFlowConfig:another
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -227,8 +227,8 @@ GPCommon.VersionFlowEditor:UploadVersion() (at Assets/HYZClientFrameworks/GPVers
 (Filename: Assets/HYZClientFrameworks/GPVersionFlow/Editor/VersionFlowEditor.cs Line: 308)
 
 DisplayProgressbar: AliCdnCosUpload
-Refreshing native plugins compatible for Editor in 37.77 ms, found 8 plugins.
-firebase4/ios/version.txt Put object succeeded, ETag: 3A19D0FF503E13B0BF67DC6F71379ABF
+Refreshing native plugins compatible for Editor in 38.64 ms, found 8 plugins.
+another/ios/version.txt Put object succeeded, ETag: 4D5DE0FCF0E673CD1F2D1FFFE5820476
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -241,7 +241,7 @@ GPCommon.VersionFlowEditor:UploadVersion() (at Assets/HYZClientFrameworks/GPVers
 (Filename: Assets/HYZClientFrameworks/GPVersionFlow/Editor/VersionFlowUploader.cs Line: 208)
 
 DisplayProgressbar: AliCdnCosRefreshFile
-GetCurrentFlowConfig:firebase4
+GetCurrentFlowConfig:another
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -257,7 +257,7 @@ GPCommon.VersionFlowEditor:UploadVersion() (at Assets/HYZClientFrameworks/GPVers
  
 (Filename: Assets/HYZClientFrameworks/GPVersionFlow/Editor/VersionFlowEditor.cs Line: 308)
 
-Refresh <color=cyan>update-g03.huanyz.com/firebase4/ios/version.txt</color> success, task id: <color=cyan>7915793302</color>
+Refresh <color=cyan>update-g03.huanyz.com/another/ios/version.txt</color> success, task id: <color=cyan>7927080313</color>
 UnityEngine.DebugLogHandler:Internal_Log()
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -283,11 +283,11 @@ GPCommon.VersionFlowEditor:UploadVersion() (at Assets/HYZClientFrameworks/GPVers
 
 Batchmode quit successfully invoked - shutting down!
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.309967 seconds (Nothing changed)
-Refresh completed in 0.310002 seconds.
+Refresh: elapses 0.331589 seconds (Nothing changed)
+Refresh completed in 0.331625 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.318612 seconds (Nothing changed)
-Refresh completed in 0.318659 seconds.
+Refresh: elapses 0.321993 seconds (Nothing changed)
+Refresh completed in 0.322040 seconds.
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
 Fallback handler could not load library /Applications/Unity2018.2.21/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
